@@ -1,0 +1,16 @@
+{
+  "name": "malicious-site-monitor",
+  "version": "1.0.0",
+  "description": "恶意网站监控站 — 定期采集并展示带病毒的网站信息",
+  "main": "scripts/fetch-data.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js",
+    "serve": "npx http-server . -p 8080 -o"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["security", "malware", "threat-intelligence", "safe-browsing"],
+  "author": "",
+  "license": "MIT"
+}

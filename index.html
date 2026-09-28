@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>恶意网站监控站</title>
+  <meta name="description" content="定期采集并展示带病毒的恶意网站信息">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>🛡️ 恶意网站监控站</h1>
+      <p class="subtitle">定期采集并展示带病毒的恶意网站信息</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 统计卡片 -->
+    <section class="stats-grid" id="statsGrid">
+      <div class="stat-card">
+        <div class="stat-value" id="statTotal">-</div>
+        <div class="stat-label">收录恶意 URL</div>
+      </div>
+      <div class="stat-card danger">
+        <div class="stat-value" id="statOnline">-</div>
+        <div class="stat-label">当前在线</div>
+      </div>
+      <div class="stat-card warning">
+        <div class="stat-value" id="statMalware">-</div>
+        <div class="stat-label">恶意软件下载</div>
+      </div>
+      <div class="stat-card info">
+        <div class="stat-value" id="statUpdated">-</div>
+        <div class="stat-label">最后更新</div>
+      </div>
+    </section>
+
+    <!-- Safe Browsing 统计 -->
+    <section class="gsb-section" id="gsbSection" style="display: none;">
+      <h2>Google Safe Browsing 威胁列表统计</h2>
+      <div class="gsb-grid" id="gsbGrid"></div>
+    </section>
+
+    <!-- 威胁类型分布 -->
+    <section class="chart-section">
+      <h2>威胁类型分布</h2>
+      <div class="chart-bars" id="typeChart"></div>
+    </section>
+
+    <!-- 搜索与筛选 -->
+    <section class="controls">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="🔍 搜索 URL、域名、标签...">
+      </div>
+      <div class="filter-group">
+        <select id="typeFilter">
+          <option value="">全部类型</option>
+        </select>
+        <select id="statusFilter">
+          <option value="">全部状态</option>
+          <option value="online">在线</option>
+          <option value="offline">离线</option>
+          <option value="unknown">未知</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- 恶意网站列表 -->
+    <section class="table-section">
+      <div class="table-header">
+        <h2>最新恶意网站列表</h2>
+        <span class="record-count" id="recordCount">共 0 条</span>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>状态</th>
+              <th>URL</th>
+              <th>威胁类型</th>
+              <th>标签</th>
+              <th>发现时间</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr class="empty-row">
+              <td colspan="6">加载中...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 分页 -->
+      <div class="pagination" id="pagination"></div>
+    </section>
+
+    <!-- 数据来源说明 -->
+    <footer class="footer">
+      <p>
+        数据来源：
+        <a href="https://urlhaus.abuse.ch/" target="_blank" rel="noopener">URLhaus (abuse.ch)</a> 、
+        <a href="https://developers.google.com/safe-browsing" target="_blank" rel="noopener">Google Safe Browsing API</a>
+      </p>
+      <p class="disclaimer">⚠️ 本站仅用于安全研究与防护，请勿访问列表中的恶意网站</p>
+    </footer>
+  </main>
+
+  <script src="data/threats.js"></script>
+  <script src="data/stats.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
