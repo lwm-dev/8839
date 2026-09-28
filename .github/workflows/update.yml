@@ -34,11 +34,3 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "chore: 更新恶意网站数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
-
-      - name: 部署到 GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          publish_branch: gh-pages
-          exclude_assets: '.github,scripts,node_modules,.trae,data/*.json'
