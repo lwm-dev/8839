@@ -5,6 +5,13 @@ on:
     # 每 6 小时执行一次
     - cron: '0 */6 * * *'
   workflow_dispatch: # 支持手动触发
+  push:
+    branches:
+      - main
+    # 仅当采集脚本或工作流本身变更时触发；bot 提交 data/ 不会触发，避免循环
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
 
 permissions:
   contents: write

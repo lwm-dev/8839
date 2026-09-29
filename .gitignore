@@ -2,3 +2,4 @@
 mingit.zip
 node_modules/
 .trae/
+*.log

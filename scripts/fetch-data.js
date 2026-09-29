@@ -9,7 +9,9 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const URLHAUS_API = 'https://urlhaus-api.abuse.ch/v1/urls/recent/limit/100/';
+// URLhaus 免密 CSV 数据源（JSON API 现在需要注册 API Key，CSV 公开下载无需鉴权）
+const URLHAUS_CSV = 'https://urlhaus.abuse.ch/downloads/csv_recent/';
+const FETCH_LIMIT = 100;
 const GSB_API = 'https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch';
 const GSB_API_KEY = process.env.GSB_API_KEY || '';
 
@@ -22,36 +24,79 @@ const THREAT_TYPE_MAP = {
   unknown: '未知威胁',
 };
 
+// 解析 URLhaus CSV 的单行（所有字段均用双引号包裹）
+// 列顺序：id,dateadded,url,url_status,last_online,threat,tags,urlhaus_link,reporter
+function parseCsvLine(line) {
+  let s = line.trim();
+  if (!s || s.startsWith('#')) return null;
+  if (s.startsWith('"')) s = s.slice(1);
+  if (s.endsWith('"')) s = s.slice(0, -1);
+  return s.split('","').map((field) => field.replace(/""/g, '"'));
+}
+
+// 从 URL 中安全提取 host
+function safeHost(url) {
+  try {
+    return new URL(url).host;
+  } catch {
+    return '';
+  }
+}
+
 async function fetchUrlhaus() {
-  console.log('[URLhaus] 正在拉取最近恶意 URL...');
-  const res = await fetch(URLHAUS_API, {
+  console.log('[URLhaus] 正在下载最近恶意 URL (CSV)...');
+  const res = await fetch(URLHAUS_CSV, {
     method: 'GET',
     headers: { 'User-Agent': 'malicious-site-monitor/1.0' },
   });
 
   if (!res.ok) {
-    throw new Error(`URLhaus API 请求失败: ${res.status} ${res.statusText}`);
+    throw new Error(`URLhaus CSV 下载失败: ${res.status} ${res.statusText}`);
   }
 
-  const json = await res.json();
-  if (json.query_status !== 'ok') {
-    throw new Error(`URLhaus API 返回异常: ${json.query_status}`);
+  const csv = await res.text();
+  const lines = csv.split(/\r?\n/);
+
+  const urls = [];
+  for (const line of lines) {
+    if (urls.length >= FETCH_LIMIT) break;
+
+    const cols = parseCsvLine(line);
+    if (!cols || cols.length < 9) continue;
+    // 跳过表头行
+    if (cols[0] === 'id') continue;
+
+    const [id, dateadded, url, urlStatus, , threat, tagsRaw, urlhausLink, reporter] = cols;
+
+    // 时间格式 "2026-09-29 12:31:17" 是 UTC，转成 ISO 8601 供前端 new Date() 解析
+    const dateAddedIso = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/.test(dateadded)
+      ? dateadded.replace(' ', 'T') + 'Z'
+      : dateadded;
+
+    const tags = tagsRaw
+      .split(',')
+      .map((t) => t.trim())
+      .filter((t) => t && t.toLowerCase() !== 'none');
+
+    urls.push({
+      id,
+      url,
+      url_status: urlStatus,
+      host: safeHost(url),
+      date_added: dateAddedIso,
+      threat_type: threat,
+      threat_type_cn: THREAT_TYPE_MAP[threat] || threat || '未知威胁',
+      tags,
+      urlhaus_link: urlhausLink || '',
+      reporter: reporter || '',
+    });
   }
 
-  const urls = (json.urls || []).map((item) => ({
-    id: item.id,
-    url: item.url,
-    url_status: item.url_status,           // online / offline / unknown
-    host: item.host,
-    date_added: item.date_added,
-    threat_type: item.threat_type,
-    threat_type_cn: THREAT_TYPE_MAP[item.threat_type] || item.threat_type || '未知威胁',
-    tags: item.tags || [],
-    urlhaus_link: item.urlhaus_reference || '',
-    reporter: item.reporter || '',
-  }));
+  if (urls.length === 0) {
+    throw new Error('URLhaus CSV 解析后未得到任何数据');
+  }
 
-  console.log(`[URLhaus] 获取到 ${urls.length} 条恶意 URL`);
+  console.log(`[URLhaus] 解析到 ${urls.length} 条恶意 URL`);
   return urls;
 }
 
