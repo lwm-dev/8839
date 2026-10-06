@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T00:04:54.407Z",
+  "updated_at": "2026-10-06T06:05:13.500Z",
   "source": "URLhaus (abuse.ch)",
   "total": 100,
   "stats": {
@@ -7,1380 +7,1706 @@
       "恶意软件下载": 100
     },
     "byStatus": {
-      "online": 90,
-      "offline": 10,
+      "online": 100,
+      "offline": 0,
       "unknown": 0
     },
     "byTag": {
-      "Mozi": 31,
-      "32-bit": 4,
-      "arm": 2,
-      "elf": 15,
-      "mirai": 34,
-      "mips": 3,
-      "579cd0": 1,
-      "dropped-by-amadey": 1,
-      "cowrie": 1,
-      "honeypot": 1
+      "LuaJIT-loader": 98,
+      "SmartLoader": 100,
+      "zip": 96,
+      "github": 95
     }
   },
   "urls": [
     {
-      "id": "3929535",
-      "url": "http://42.57.21.135:48888/bin.sh",
+      "id": "3930703",
+      "url": "https://raw.githubusercontent.com/Rothalizee/iTools/refs/heads/main/pericardiosymphysis/Tools_i_v2.8.zip",
       "url_status": "online",
-      "host": "42.57.21.135:48888",
-      "date_added": "2026-10-05T23:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:36Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929535/",
-      "reporter": "adliwahid"
+      "tags": [
+        "LuaJIT-loader",
+        "SmartLoader"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930703/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929534",
-      "url": "http://112.242.58.246:55812/bin.sh",
+      "id": "3930704",
+      "url": "https://raw.githubusercontent.com/akash9345/getopt-win32-mingw/HEAD/test/win_getopt_mingw_2.1.zip",
       "url_status": "online",
-      "host": "112.242.58.246:55812",
-      "date_added": "2026-10-05T23:46:33Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:36Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "LuaJIT-loader",
+        "SmartLoader"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929534/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930704/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929533",
-      "url": "http://1.62.94.126:45713/bin.sh",
+      "id": "3930705",
+      "url": "https://raw.githubusercontent.com/skumpn1220596/hdmi-switch/main/Converters/v3.3.zip",
       "url_status": "online",
-      "host": "1.62.94.126:45713",
-      "date_added": "2026-10-05T23:46:24Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:36Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
+        "SmartLoader"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929533/",
-      "reporter": "geenensp"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930705/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929532",
-      "url": "http://27.219.186.191:34590/i",
+      "id": "3930706",
+      "url": "https://raw.githubusercontent.com/cooldandg/tb-query/master/src/tb_query/tb-query-signless.zip",
       "url_status": "online",
-      "host": "27.219.186.191:34590",
-      "date_added": "2026-10-05T23:46:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:36Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "SmartLoader"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929532/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930706/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929530",
-      "url": "http://185.137.62.72:3128/i",
+      "id": "3930702",
+      "url": "https://raw.githubusercontent.com/inconclusive-atlanticbonito981/VidSnap-AI/refs/heads/main/akonge/Snap-AI-Vid-v2.6.zip",
       "url_status": "online",
-      "host": "185.137.62.72:3128",
-      "date_added": "2026-10-05T23:46:12Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:34Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929530/",
-      "reporter": "adliwahid"
+      "tags": [
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930702/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929531",
-      "url": "http://123.188.214.82:42150/i",
+      "id": "3930701",
+      "url": "https://raw.githubusercontent.com/RAYMDG/mini_shell/refs/heads/main/include/shell_mini_1.3.zip",
       "url_status": "online",
-      "host": "123.188.214.82:42150",
-      "date_added": "2026-10-05T23:46:12Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:33Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929531/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930701/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929529",
-      "url": "http://27.215.9.11:37368/bin.sh",
+      "id": "3930700",
+      "url": "https://raw.githubusercontent.com/brandonFN/aws-s3-cross-account-migration/refs/heads/master/achievable/s_aws_account_cross_migration_2.2.zip",
       "url_status": "online",
-      "host": "27.215.9.11:37368",
-      "date_added": "2026-10-05T23:32:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:32Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929529/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930700/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929527",
-      "url": "http://42.225.241.115:51403/i",
+      "id": "3930699",
+      "url": "https://raw.githubusercontent.com/Kelly7401/cheatsheet_machines_htb/refs/heads/main/moronism/machines-htb-cheatsheet-2.0-beta.3.zip",
       "url_status": "online",
-      "host": "42.225.241.115:51403",
-      "date_added": "2026-10-05T23:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:30Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929527/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930699/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929528",
-      "url": "http://59.96.141.52:47618/i",
+      "id": "3930696",
+      "url": "https://raw.githubusercontent.com/benja0191928/awesome-llm-prompts/refs/heads/main/Kris/prompts_llm_awesome_v2.8-alpha.3.zip",
       "url_status": "online",
-      "host": "59.96.141.52:47618",
-      "date_added": "2026-10-05T23:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:29Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929528/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930696/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929526",
-      "url": "http://222.138.176.25:52439/i",
+      "id": "3930697",
+      "url": "https://raw.githubusercontent.com/maranh0/ai-junior-data_scientist/HEAD/data_tools/ai_data_junior_scientist_v2.7.zip",
       "url_status": "online",
-      "host": "222.138.176.25:52439",
-      "date_added": "2026-10-05T23:30:22Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:29Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929526/",
-      "reporter": "geenensp"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930697/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929525",
-      "url": "http://42.225.241.115:51403/bin.sh",
+      "id": "3930698",
+      "url": "https://raw.githubusercontent.com/crob275/clickhouse-qvz/refs/heads/main/suppression/clickhouse_qvz_v3.0-beta.5.zip",
       "url_status": "online",
-      "host": "42.225.241.115:51403",
-      "date_added": "2026-10-05T23:17:28Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:29Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929525/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930698/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929524",
-      "url": "http://196.189.98.77:46878/i",
+      "id": "3930694",
+      "url": "https://raw.githubusercontent.com/AngelJulio1331/RobotColonyExplorerSimulation/refs/heads/master/src/Colony-Explorer-Robot-Simulation-2.8.zip",
       "url_status": "online",
-      "host": "196.189.98.77:46878",
-      "date_added": "2026-10-05T23:17:20Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:28Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929524/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930694/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929523",
-      "url": "http://61.53.120.20:56527/i",
+      "id": "3930695",
+      "url": "https://raw.githubusercontent.com/abdessamademoussaif1/jedco-smart-ops/refs/heads/main/scripts/jedco_ops_smart_3.9.zip",
       "url_status": "online",
-      "host": "61.53.120.20:56527",
-      "date_added": "2026-10-05T23:17:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:28Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929523/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930695/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929522",
-      "url": "http://60.18.82.10:35617/bin.sh",
-      "url_status": "offline",
-      "host": "60.18.82.10:35617",
-      "date_added": "2026-10-05T23:02:24Z",
+      "id": "3930693",
+      "url": "https://raw.githubusercontent.com/mizanur1989/CodeStalker/refs/heads/main/docs/Code_Stalker_2.5.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:27Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929522/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930693/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929520",
-      "url": "http://114.228.0.107:42996/i",
+      "id": "3930692",
+      "url": "https://raw.githubusercontent.com/saeed-karout/posteritas/HEAD/wirl/posteritas.zip",
       "url_status": "online",
-      "host": "114.228.0.107:42996",
-      "date_added": "2026-10-05T23:01:17Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:26Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929520/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930692/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929521",
-      "url": "http://123.12.108.39:33277/i",
+      "id": "3930690",
+      "url": "https://raw.githubusercontent.com/boxer-027/hyprsnow/refs/heads/main/src/Software_v2.1.zip",
       "url_status": "online",
-      "host": "123.12.108.39:33277",
-      "date_added": "2026-10-05T23:01:17Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:25Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929521/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930690/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929518",
-      "url": "http://175.148.157.65:54495/i",
+      "id": "3930691",
+      "url": "https://raw.githubusercontent.com/Beitrisestimable2078/hacker-skill/refs/heads/main/12-binary/skill-hacker-1.3.zip",
       "url_status": "online",
-      "host": "175.148.157.65:54495",
-      "date_added": "2026-10-05T23:01:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:25Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929518/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930691/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929519",
-      "url": "http://59.96.141.52:47618/bin.sh",
+      "id": "3930689",
+      "url": "https://raw.githubusercontent.com/developersofik/greenprompt/refs/heads/main/web/src/styles/Software_1.4.zip",
       "url_status": "online",
-      "host": "59.96.141.52:47618",
-      "date_added": "2026-10-05T23:01:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:24Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929519/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930689/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929517",
-      "url": "http://42.55.5.203:55832/i",
+      "id": "3930688",
+      "url": "https://raw.githubusercontent.com/BryanCode06/codex-local-session-manager/refs/heads/main/weariedly/codex_manager_local_session_1.7.zip",
       "url_status": "online",
-      "host": "42.55.5.203:55832",
-      "date_added": "2026-10-05T22:53:23Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:23Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929517/",
-      "reporter": "geenensp"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930688/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929515",
-      "url": "http://115.54.108.137:38442/i",
+      "id": "3930686",
+      "url": "https://raw.githubusercontent.com/Kavya-Rawat/Loading_animations/refs/heads/main/tyrannic/animations-Loading-v2.0.zip",
       "url_status": "online",
-      "host": "115.54.108.137:38442",
-      "date_added": "2026-10-05T22:47:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:22Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929515/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930686/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929516",
-      "url": "http://120.84.215.235:54297/i",
+      "id": "3930687",
+      "url": "https://raw.githubusercontent.com/Wordfinderhermitage142/wechat-robot-go/refs/heads/main/wechat/internal/store/robot-wechat-go-v2.1-beta.4.zip",
       "url_status": "online",
-      "host": "120.84.215.235:54297",
-      "date_added": "2026-10-05T22:47:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:22Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929516/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930687/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929512",
-      "url": "http://218.29.146.96:46336/i",
+      "id": "3930684",
+      "url": "https://raw.githubusercontent.com/PhongKiemThu/deep-reading-analyst-skill/refs/heads/main/src/deep-reading-analyst/references/deep-analyst-reading-skill-1.1.zip",
       "url_status": "online",
-      "host": "218.29.146.96:46336",
-      "date_added": "2026-10-05T22:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:21Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929512/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930684/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929513",
-      "url": "http://113.229.177.51:38532/i",
+      "id": "3930685",
+      "url": "https://raw.githubusercontent.com/WordsmithWolf/orc-k8s-helm-rustdesk/refs/heads/main/charts/k_helm_s_orc_rustdesk_v1.0.zip",
       "url_status": "online",
-      "host": "113.229.177.51:38532",
-      "date_added": "2026-10-05T22:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:21Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929513/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930685/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929514",
-      "url": "http://193.178.158.57/bin/6107cbb0a359ada5_pyinfector.exe",
+      "id": "3930683",
+      "url": "https://raw.githubusercontent.com/specificgravityhobbleskirt108/CloudFlare-R2-LocalPicManager/refs/heads/main/skills/Manager_Flare_Cloud_Local_Pic_2.1.zip",
       "url_status": "online",
-      "host": "193.178.158.57",
-      "date_added": "2026-10-05T22:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:20Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "579cd0",
-        "dropped-by-amadey"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929514/",
-      "reporter": "Bitsight"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930683/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929511",
-      "url": "http://125.44.190.250:36712/i",
+      "id": "3930681",
+      "url": "https://raw.githubusercontent.com/kainemonkey/retail-sales-analysis-project/main/outputs/project-analysis-retail-sales-electrophototherapy.zip",
       "url_status": "online",
-      "host": "125.44.190.250:36712",
-      "date_added": "2026-10-05T22:33:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:18Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929511/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930681/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929509",
-      "url": "http://39.74.82.61:60346/bin.sh",
+      "id": "3930682",
+      "url": "https://raw.githubusercontent.com/Hautran11325/dev-docs-skill/refs/heads/master/examples/docs-skill-dev-2.8.zip",
       "url_status": "online",
-      "host": "39.74.82.61:60346",
-      "date_added": "2026-10-05T22:32:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:18Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929509/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930682/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929510",
-      "url": "http://175.148.157.65:54495/bin.sh",
+      "id": "3930679",
+      "url": "https://raw.githubusercontent.com/davidechoky728/ports-cli/refs/heads/main/cmd/ports-cli-2.4.zip",
       "url_status": "online",
-      "host": "175.148.157.65:54495",
-      "date_added": "2026-10-05T22:32:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:17Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929510/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930679/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929504",
-      "url": "http://119.183.24.57:41122/i",
+      "id": "3930680",
+      "url": "https://raw.githubusercontent.com/alexanderbrucewilliams5-arch/expense-tracker/refs/heads/main/backend/node_modules/mongodb/lib/cmap/auth/mongodb_oidc/tracker_expense_v1.9.zip",
       "url_status": "online",
-      "host": "119.183.24.57:41122",
-      "date_added": "2026-10-05T22:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:17Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929504/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930680/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929505",
-      "url": "http://182.127.110.6:47269/i",
+      "id": "3930677",
+      "url": "https://raw.githubusercontent.com/Tomasz4474/ikea-products-bycategory/refs/heads/main/pollinium/ikea_products_bycategory_v2.2.zip",
       "url_status": "online",
-      "host": "182.127.110.6:47269",
-      "date_added": "2026-10-05T22:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:16Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929505/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930677/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929506",
-      "url": "http://105.184.95.84:49349/i",
+      "id": "3930678",
+      "url": "https://raw.githubusercontent.com/graphiccompte2-code/jeepers-creeper-xmd/HEAD/lib/jeepers-xmd-creeper-v1.0-alpha.1.zip",
       "url_status": "online",
-      "host": "105.184.95.84:49349",
-      "date_added": "2026-10-05T22:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:16Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929506/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930678/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929507",
-      "url": "http://113.229.177.51:38532/bin.sh",
+      "id": "3930675",
+      "url": "https://raw.githubusercontent.com/xdhris/rtl8720dn-starter-kit/refs/heads/master/libraries/RTL8720_Common/src/starter-kit-dn-rtl-v3.6.zip",
       "url_status": "online",
-      "host": "113.229.177.51:38532",
-      "date_added": "2026-10-05T22:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:14Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929507/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930675/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929508",
-      "url": "http://39.74.82.61:60346/i",
+      "id": "3930676",
+      "url": "https://raw.githubusercontent.com/VenkateshAneshwar/gatus-self-hosted/refs/heads/main/excoriation/self-hosted-gatus-v2.4.zip",
       "url_status": "online",
-      "host": "39.74.82.61:60346",
-      "date_added": "2026-10-05T22:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:14Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929508/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930676/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929503",
-      "url": "http://119.183.24.57:41122/bin.sh",
+      "id": "3930672",
+      "url": "https://raw.githubusercontent.com/internet-dot/processhacker-mcp/HEAD/extensions/mcp-processhacker-v2.7.zip",
       "url_status": "online",
-      "host": "119.183.24.57:41122",
-      "date_added": "2026-10-05T22:18:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:13Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929503/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930672/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929502",
-      "url": "http://123.188.214.82:42150/bin.sh",
+      "id": "3930673",
+      "url": "https://raw.githubusercontent.com/programmerforfinance/EncBot/refs/heads/main/cyclesmith/Enc-Bot-v2.6.zip",
       "url_status": "online",
-      "host": "123.188.214.82:42150",
-      "date_added": "2026-10-05T22:17:22Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:13Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929502/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930673/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929501",
-      "url": "http://123.158.52.136:35213/i",
+      "id": "3930674",
+      "url": "https://raw.githubusercontent.com/magdytarek11/ai-growth-stack/HEAD/awner/ai-stack-growth-wickawee.zip",
       "url_status": "online",
-      "host": "123.158.52.136:35213",
-      "date_added": "2026-10-05T22:17:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:13Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929501/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930674/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929499",
-      "url": "http://105.184.95.84:49349/bin.sh",
+      "id": "3930671",
+      "url": "https://raw.githubusercontent.com/rhkiswani/planwiki-app/HEAD/app/api/trpc/planwiki-app-v2.8.zip",
       "url_status": "online",
-      "host": "105.184.95.84:49349",
-      "date_added": "2026-10-05T22:17:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:12Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929499/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930671/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929500",
-      "url": "http://218.29.146.96:46336/bin.sh",
+      "id": "3930667",
+      "url": "https://raw.githubusercontent.com/Str3akoner/UltraHiT/refs/heads/main/utils/T_Ultra_Hi_1.9.zip",
       "url_status": "online",
-      "host": "218.29.146.96:46336",
-      "date_added": "2026-10-05T22:17:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:10Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929500/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930667/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929497",
-      "url": "http://27.207.228.107:38505/i",
+      "id": "3930668",
+      "url": "https://raw.githubusercontent.com/Xylasak/docker-to-ecs-real/refs/heads/main/images/docker_real_to_ecs_petaurine.zip",
       "url_status": "online",
-      "host": "27.207.228.107:38505",
-      "date_added": "2026-10-05T22:17:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:10Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929497/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930668/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929498",
-      "url": "http://203.204.193.202:44542/i",
+      "id": "3930669",
+      "url": "https://raw.githubusercontent.com/Alexuuu123/docformat-gui/refs/heads/main/assets/docformat-gui-v1.3-beta.3.zip",
       "url_status": "online",
-      "host": "203.204.193.202:44542",
-      "date_added": "2026-10-05T22:17:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:10Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929498/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930669/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929496",
-      "url": "http://182.127.110.6:47269/bin.sh",
+      "id": "3930670",
+      "url": "https://raw.githubusercontent.com/Maulana098/Rocket-League-Bakkesmod/refs/heads/main/Sporobolus/1.5.zip",
       "url_status": "online",
-      "host": "182.127.110.6:47269",
-      "date_added": "2026-10-05T22:02:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:10Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929496/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930670/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929495",
-      "url": "http://115.57.235.166:39181/i",
+      "id": "3930665",
+      "url": "https://raw.githubusercontent.com/ruksol/reAVS/refs/heads/main/tests/ir/re_AVS_3.6.zip",
       "url_status": "online",
-      "host": "115.57.235.166:39181",
-      "date_added": "2026-10-05T22:02:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:08Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929495/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930665/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929494",
-      "url": "http://42.225.202.233:45104/i",
+      "id": "3930666",
+      "url": "https://raw.githubusercontent.com/mortenlundgren/Kaku/refs/heads/main/crates/umask/Software_v2.2.zip",
       "url_status": "online",
-      "host": "42.225.202.233:45104",
-      "date_added": "2026-10-05T22:02:12Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:08Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929494/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930666/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929493",
-      "url": "http://203.204.193.202:44542/bin.sh",
+      "id": "3930663",
+      "url": "https://raw.githubusercontent.com/joohany/SNU_2D_ProgrammingTools_IDE_Wyvern/SNU_2D_ProgrammingTools_IDE_Wyvern_Main-dev/RepoData/Description/GitHub/OldVersions/SNU_2D_ProgrammingTools_IDE_Wyvern-v1.5.zip",
       "url_status": "online",
-      "host": "203.204.193.202:44542",
-      "date_added": "2026-10-05T22:01:19Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:06Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929493/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930663/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929492",
-      "url": "http://59.180.141.164:51827/i",
+      "id": "3930664",
+      "url": "https://raw.githubusercontent.com/civanoni/go-todo-api/HEAD/speedway/go-todo-api.zip",
       "url_status": "online",
-      "host": "59.180.141.164:51827",
-      "date_added": "2026-10-05T21:47:32Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:06Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929492/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930664/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929490",
-      "url": "http://180.180.120.72:60846/i",
+      "id": "3930661",
+      "url": "https://raw.githubusercontent.com/sujan123123/shuttlecock/master/database/migrations/Software_3.3.zip",
       "url_status": "online",
-      "host": "180.180.120.72:60846",
-      "date_added": "2026-10-05T21:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:05Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929490/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930661/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929491",
-      "url": "http://175.150.51.60:36561/i",
+      "id": "3930662",
+      "url": "https://raw.githubusercontent.com/Kartikpanel2008/best-skills/refs/heads/main/skills/wechat-article-writer/best_skills_v1.8.zip",
       "url_status": "online",
-      "host": "175.150.51.60:36561",
-      "date_added": "2026-10-05T21:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:05Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929491/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930662/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929489",
-      "url": "http://120.84.215.197:60936/i",
+      "id": "3930659",
+      "url": "https://raw.githubusercontent.com/carloscapo19/Aerospace-Knowledge-Quiz-CLI/refs/heads/main/tests/Knowledge-CLI-Quiz-Aerospace-1.9.zip",
       "url_status": "online",
-      "host": "120.84.215.197:60936",
-      "date_added": "2026-10-05T21:47:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:04Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929489/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930659/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929488",
-      "url": "http://171.213.166.96:41669/bin.sh",
+      "id": "3930660",
+      "url": "https://raw.githubusercontent.com/AlessandroFerreiraSantana/SNU_2D_ProgrammingTools_IDE_MIT-TiML/SNU_2D_ProgrammingTools_IDE_MIT-TiML_Main-dev/ultranatural/SNU_2D_ProgrammingTools_IDE_MIT-TiML.zip",
       "url_status": "online",
-      "host": "171.213.166.96:41669",
-      "date_added": "2026-10-05T21:41:24Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:04Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929488/",
-      "reporter": "geenensp"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930660/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929487",
-      "url": "http://112.242.23.5:45984/i",
+      "id": "3930658",
+      "url": "https://raw.githubusercontent.com/AREXTOVID/laravel-repository-service-pattern/refs/heads/main/.idea/laravel-repository-service-pattern-v2.0-alpha.5.zip",
       "url_status": "online",
-      "host": "112.242.23.5:45984",
-      "date_added": "2026-10-05T21:31:35Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:03Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929487/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930658/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929486",
-      "url": "http://42.226.70.47:34014/i",
+      "id": "3930657",
+      "url": "https://raw.githubusercontent.com/huhu094560/Retail-Sales-Analysis/refs/heads/main/swivellike/Retail-Sales-Analysis-3.6.zip",
       "url_status": "online",
-      "host": "42.226.70.47:34014",
-      "date_added": "2026-10-05T21:31:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:02Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929486/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930657/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929483",
-      "url": "http://61.52.1.251:59868/i",
+      "id": "3930655",
+      "url": "https://raw.githubusercontent.com/ANDREIII12/AlterLab-SDK/refs/heads/main/python/alterlab/Lab_SDK_Alter_2.0-beta.4.zip",
       "url_status": "online",
-      "host": "61.52.1.251:59868",
-      "date_added": "2026-10-05T21:17:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:01Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929483/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930655/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929484",
-      "url": "http://123.185.245.137:43701/bin.sh",
+      "id": "3930656",
+      "url": "https://raw.githubusercontent.com/kyle122497/llamator-mcp-server/HEAD/src/llamator_mcp_server/api/llamator-server-mcp-v2.9.zip",
       "url_status": "online",
-      "host": "123.185.245.137:43701",
-      "date_added": "2026-10-05T21:17:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:01Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929484/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930656/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929485",
-      "url": "http://112.198.195.40:50034/bin.sh",
+      "id": "3930654",
+      "url": "https://raw.githubusercontent.com/Sean9582/FedRAG/main/fedrag_clean_figures/Fed_RAG_1.7.zip",
       "url_status": "online",
-      "host": "112.198.195.40:50034",
-      "date_added": "2026-10-05T21:17:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T06:00:00Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929485/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930654/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929481",
-      "url": "http://42.225.202.233:45104/bin.sh",
+      "id": "3930652",
+      "url": "https://raw.githubusercontent.com/matearpu0394/Lelana.id/refs/heads/main/app/templates/chatbot/Lelana-id-v1.0.zip",
       "url_status": "online",
-      "host": "42.225.202.233:45104",
-      "date_added": "2026-10-05T21:02:12Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:59Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929481/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930652/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929482",
-      "url": "http://103.87.194.109:41026/i",
+      "id": "3930653",
+      "url": "https://raw.githubusercontent.com/i-greque/paimon-cpp/HEAD/conspirant/cpp_paimon_v2.9.zip",
       "url_status": "online",
-      "host": "103.87.194.109:41026",
-      "date_added": "2026-10-05T21:02:12Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:59Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929482/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930653/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929479",
-      "url": "http://60.23.237.141:57528/i",
+      "id": "3930651",
+      "url": "https://raw.githubusercontent.com/aldhio1993/ai-product-from-scratch/HEAD/backend/src/routes/product-ai-scratch-from-1.6.zip",
       "url_status": "online",
-      "host": "60.23.237.141:57528",
-      "date_added": "2026-10-05T21:01:19Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:58Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929479/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930651/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929480",
-      "url": "http://61.52.1.251:59868/bin.sh",
+      "id": "3930650",
+      "url": "https://raw.githubusercontent.com/jainvikas80/Reconceptualising-Knowing-as-Care-The-New-Science-of-Epistemic-Intimacy/main/coccygomorphic/Reconceptualising-Epistemic-Intimacy-The-Care-as-of-Science-Knowing-New-domineeringly.zip",
       "url_status": "online",
-      "host": "61.52.1.251:59868",
-      "date_added": "2026-10-05T21:01:19Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:57Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929480/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930650/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929477",
-      "url": "http://118.174.171.111:51224/i",
+      "id": "3930649",
+      "url": "https://raw.githubusercontent.com/Florisheedless915/grok-register/main/vendor/grok2api/_public/static/function/register_grok_1.2.zip",
       "url_status": "online",
-      "host": "118.174.171.111:51224",
-      "date_added": "2026-10-05T21:01:18Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:56Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929477/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930649/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929478",
-      "url": "http://61.137.200.25:38220/i",
+      "id": "3930646",
+      "url": "https://raw.githubusercontent.com/Nkaduadjei/Loan-Default-Prediction-System/refs/heads/main/templates/Prediction_Default_System_Loan_havage.zip",
       "url_status": "online",
-      "host": "61.137.200.25:38220",
-      "date_added": "2026-10-05T21:01:18Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:55Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929478/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930646/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929476",
-      "url": "http://118.174.171.111:51224/bin.sh",
+      "id": "3930647",
+      "url": "https://raw.githubusercontent.com/sadbacon132/argon-v/HEAD/docs/theory/argon_v_v1.2.zip",
       "url_status": "online",
-      "host": "118.174.171.111:51224",
-      "date_added": "2026-10-05T20:47:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:55Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929476/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930647/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929475",
-      "url": "http://115.57.251.137:46903/bin.sh",
-      "url_status": "offline",
-      "host": "115.57.251.137:46903",
-      "date_added": "2026-10-05T20:47:15Z",
+      "id": "3930648",
+      "url": "https://raw.githubusercontent.com/lukmannurhikma/UnknownKiller/refs/heads/main/UnknownKiller/x64/Release/Killer_Unknown_3.8.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:55Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929475/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930648/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929474",
-      "url": "http://114.239.44.32:48797/i",
+      "id": "3930643",
+      "url": "https://raw.githubusercontent.com/davidrodrical2-web/painel-wall-visual-hub/refs/heads/main/infralinear/hub-painel-visual-wall-v2.5.zip",
       "url_status": "online",
-      "host": "114.239.44.32:48797",
-      "date_added": "2026-10-05T20:32:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:54Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929474/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930643/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929473",
-      "url": "http://115.62.176.165:39661/i",
-      "url_status": "offline",
-      "host": "115.62.176.165:39661",
-      "date_added": "2026-10-05T20:32:13Z",
+      "id": "3930644",
+      "url": "https://raw.githubusercontent.com/abboudealestateerbil/flask-rest-api-jwt/refs/heads/main/app/resources/api-flask-rest-jwt-v3.4.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:54Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929473/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930644/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929472",
-      "url": "http://176.65.148.144/bins/sora.mpsl",
+      "id": "3930645",
+      "url": "https://raw.githubusercontent.com/porzanaundercarriage121/claude-code-map/refs/heads/main/deshabille/code_claude_map_v1.9.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:26:22Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:54Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929472/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930645/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929471",
-      "url": "http://176.65.148.144/bins/sora.arm5",
+      "id": "3930641",
+      "url": "https://raw.githubusercontent.com/hung-mecha/expo-apple-music-bottom-sheet/main/assets/bottom-music-apple-sheet-expo-epitheloid.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:25:24Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:53Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929471/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930641/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929470",
-      "url": "http://176.65.148.144/bins/sora.arm",
+      "id": "3930642",
+      "url": "https://raw.githubusercontent.com/kfalskdf/easytier-ws-relay/HEAD/src/worker/easytier_relay_ws_furor.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:22Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:53Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929470/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930642/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929464",
-      "url": "http://176.65.148.144/bins/sora.sh4",
+      "id": "3930639",
+      "url": "https://raw.githubusercontent.com/pasarclubdev/lightpanda-session-bridge/main/docs/releases/session_bridge_lightpanda_1.7.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:21Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:52Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929464/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930639/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929465",
-      "url": "http://176.65.148.144/bins/sora.mips",
+      "id": "3930640",
+      "url": "https://raw.githubusercontent.com/sayanrupbarman/movie-app/HEAD/src/components/app-movie-v3.2.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:21Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:52Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929465/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930640/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929466",
-      "url": "http://176.65.148.144/bins/sora.arm6",
+      "id": "3930638",
+      "url": "https://raw.githubusercontent.com/Tennesseei161/Telegram-Member-Adder/main/dietician/Telegram_Member_Adder_2.6.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:21Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:49Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929466/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930638/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929467",
-      "url": "http://176.65.148.144/bins/sora.ppc",
+      "id": "3930636",
+      "url": "https://raw.githubusercontent.com/marckerns/fanfan/refs/heads/main/tools/Software_ionizable.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:21Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:47Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929467/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930636/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929468",
-      "url": "http://176.65.148.144/bins/sora.m68k",
+      "id": "3930637",
+      "url": "https://raw.githubusercontent.com/aloneboyktk1/medical-resource-simulator/HEAD/misbestow/medical-resource-simulator.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:21Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:47Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929468/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930637/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929469",
-      "url": "http://176.65.148.144/bins/sora.x86",
+      "id": "3930635",
+      "url": "https://raw.githubusercontent.com/drewfist/backend-template/HEAD/infra/monitoring/grafana/dashboards/backend-template-3.0.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:21Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:45Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929469/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930635/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929463",
-      "url": "http://176.65.148.144/bins/sora.arm7",
+      "id": "3930634",
+      "url": "https://raw.githubusercontent.com/hfgwygey/yu-ai-agent/master/src/test/java/yu-ai-agent-1.0-beta.3.zip",
       "url_status": "online",
-      "host": "176.65.148.144",
-      "date_added": "2026-10-05T20:24:17Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:44Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf",
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929463/",
-      "reporter": "tolisec"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930634/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929461",
-      "url": "http://116.138.191.211:33915/bin.sh",
+      "id": "3930633",
+      "url": "https://raw.githubusercontent.com/rizwan199811/neurocache/master/src/store/Software-v3.3.zip",
       "url_status": "online",
-      "host": "116.138.191.211:33915",
-      "date_added": "2026-10-05T20:17:17Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:43Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929461/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930633/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929462",
-      "url": "http://175.165.87.9:59986/i",
+      "id": "3930631",
+      "url": "https://raw.githubusercontent.com/ivar2000/clawhark/refs/heads/main/openclaw/Software-3.0.zip",
       "url_status": "online",
-      "host": "175.165.87.9:59986",
-      "date_added": "2026-10-05T20:17:17Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:42Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929462/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930631/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929458",
-      "url": "http://42.58.211.115:38923/i",
+      "id": "3930632",
+      "url": "https://raw.githubusercontent.com/yonilss/Msi-compiler/refs/heads/main/subsecretary/Msi_compiler_v3.1.zip",
       "url_status": "online",
-      "host": "42.58.211.115:38923",
-      "date_added": "2026-10-05T20:17:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:42Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929458/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930632/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929459",
-      "url": "http://115.62.181.158:52954/i",
+      "id": "3930629",
+      "url": "https://raw.githubusercontent.com/covomould-pixel/auto-starter/refs/heads/main/englobe/auto-starter-1.6-alpha.1.zip",
       "url_status": "online",
-      "host": "115.62.181.158:52954",
-      "date_added": "2026-10-05T20:17:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:41Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929459/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930629/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929460",
-      "url": "http://116.208.123.14:39704/i",
-      "url_status": "offline",
-      "host": "116.208.123.14:39704",
-      "date_added": "2026-10-05T20:17:16Z",
+      "id": "3930630",
+      "url": "https://raw.githubusercontent.com/konn57737/mysteryhousestyleguide/main/overnew/Software-v3.0-beta.5.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:41Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929460/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930630/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929457",
-      "url": "http://115.62.181.158:52954/bin.sh",
-      "url_status": "offline",
-      "host": "115.62.181.158:52954",
-      "date_added": "2026-10-05T20:02:26Z",
+      "id": "3930628",
+      "url": "https://raw.githubusercontent.com/Joshuadoroja33/Ronnier-skill/refs/heads/main/references/skill_Ronnier_v3.3.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:40Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929457/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930628/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929456",
-      "url": "http://115.62.176.165:39661/bin.sh",
+      "id": "3930627",
+      "url": "https://raw.githubusercontent.com/Chisaning/UNITY2api/main/readmeme/api_UNIT_archiblast.zip",
       "url_status": "online",
-      "host": "115.62.176.165:39661",
-      "date_added": "2026-10-05T20:02:12Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:39Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929456/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930627/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929455",
-      "url": "http://115.197.65.206:41585/bin.sh",
+      "id": "3930624",
+      "url": "https://raw.githubusercontent.com/lazboby/V2L-Youtube2Guide-demo/refs/heads/main/unsupportedly/Youtube-demo-Guide-v1.8-beta.4.zip",
       "url_status": "online",
-      "host": "115.197.65.206:41585",
-      "date_added": "2026-10-05T20:01:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:38Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929455/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930624/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929454",
-      "url": "http://42.58.211.115:38923/bin.sh",
+      "id": "3930625",
+      "url": "https://raw.githubusercontent.com/Ferchoxx23/aws-sso-workstations/refs/heads/main/infra/policies/aws_sso_workstations_2.4.zip",
       "url_status": "online",
-      "host": "42.58.211.115:38923",
-      "date_added": "2026-10-05T20:01:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:38Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929454/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930625/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929453",
-      "url": "http://42.226.68.236:42148/i",
+      "id": "3930626",
+      "url": "https://raw.githubusercontent.com/bilizada/gorm-txflow/refs/heads/main/stanzaic/txflow-gorm-v2.1.zip",
       "url_status": "online",
-      "host": "42.226.68.236:42148",
-      "date_added": "2026-10-05T19:50:22Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:38Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "cowrie",
-        "elf",
-        "honeypot",
-        "mips",
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929453/",
-      "reporter": "ksi_digital"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930626/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929452",
-      "url": "http://116.208.123.14:39704/bin.sh",
-      "url_status": "offline",
-      "host": "116.208.123.14:39704",
-      "date_added": "2026-10-05T19:47:17Z",
+      "id": "3930622",
+      "url": "https://raw.githubusercontent.com/Joplenary756/PlayTorrioV3/main/populationistic/v1.1-beta.3.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:37Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929452/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930622/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929451",
-      "url": "http://196.190.69.149:53728/bin.sh",
+      "id": "3930623",
+      "url": "https://raw.githubusercontent.com/Cyberphobialaxation2471/SkillClaw/refs/heads/main/skillclaw/protocols/Claw_Skill_v3.6.zip",
       "url_status": "online",
-      "host": "196.190.69.149:53728",
-      "date_added": "2026-10-05T19:47:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:37Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929451/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930623/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929450",
-      "url": "http://42.180.59.73:50911/bin.sh",
+      "id": "3930621",
+      "url": "https://raw.githubusercontent.com/GInHaise/Aster/refs/heads/main/splother/Software-saprophyte.zip",
       "url_status": "online",
-      "host": "42.180.59.73:50911",
-      "date_added": "2026-10-05T19:47:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:36Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929450/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930621/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929449",
-      "url": "http://39.40.149.116:42238/i",
-      "url_status": "offline",
-      "host": "39.40.149.116:42238",
-      "date_added": "2026-10-05T19:32:42Z",
+      "id": "3930618",
+      "url": "https://raw.githubusercontent.com/bubovich000-boop/ChillLibraryTgBot/refs/heads/main/oxhide/Bot_Library_Tg_Chill_v3.9-beta.1.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:35Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929449/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930618/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929446",
-      "url": "http://220.201.74.63:44269/i",
-      "url_status": "offline",
-      "host": "220.201.74.63:44269",
-      "date_added": "2026-10-05T19:32:14Z",
+      "id": "3930619",
+      "url": "https://raw.githubusercontent.com/Ceremonyhatshop193/apex-rust-esp-script-hub/main/tuan/3.0.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:35Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929446/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930619/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929447",
-      "url": "http://182.118.245.201:52719/i",
+      "id": "3930620",
+      "url": "https://raw.githubusercontent.com/Choer-boy/gog-galaxy-tools/main/Zerma/gog_tools_galaxy_2.6.zip",
       "url_status": "online",
-      "host": "182.118.245.201:52719",
-      "date_added": "2026-10-05T19:32:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:35Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929447/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930620/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929448",
-      "url": "http://39.63.146.69:36404/i",
+      "id": "3930617",
+      "url": "https://raw.githubusercontent.com/Groundnoiserealestatebusiness382/CYCode/refs/heads/main/skills/watch-run/Code-CY-scrawk.zip",
       "url_status": "online",
-      "host": "39.63.146.69:36404",
-      "date_added": "2026-10-05T19:32:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:34Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929448/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930617/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929445",
-      "url": "http://27.215.84.50:55461/i",
+      "id": "3930615",
+      "url": "https://raw.githubusercontent.com/Sociocultural-factor293/ZModManager/refs/heads/main/ZModManager/ViewModels/Mod-Z-Manager-2.0.zip",
       "url_status": "online",
-      "host": "27.215.84.50:55461",
-      "date_added": "2026-10-05T19:32:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:33Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929445/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930615/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929444",
-      "url": "http://175.171.239.86:59640/i",
+      "id": "3930616",
+      "url": "https://raw.githubusercontent.com/sathvik-27/silent-quark-930/main/hypostasis/silent-quark-930.zip",
       "url_status": "online",
-      "host": "175.171.239.86:59640",
-      "date_added": "2026-10-05T19:17:16Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:33Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929444/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930616/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929443",
-      "url": "http://39.63.146.69:36404/bin.sh",
+      "id": "3930614",
+      "url": "https://raw.githubusercontent.com/Egga313/nova-pdf-studio/main/src/modules/updates/main/pdf-studio-nova-v3.8.zip",
       "url_status": "online",
-      "host": "39.63.146.69:36404",
-      "date_added": "2026-10-05T19:17:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:32Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929443/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930614/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929441",
-      "url": "http://196.190.69.149:53728/i",
-      "url_status": "offline",
-      "host": "196.190.69.149:53728",
-      "date_added": "2026-10-05T19:17:13Z",
+      "id": "3930613",
+      "url": "https://raw.githubusercontent.com/ho9504/helm-landing/master/src/app/helm_landing_1.7.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:31Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929441/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930613/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929442",
-      "url": "http://113.221.26.99:47375/i",
+      "id": "3930611",
+      "url": "https://raw.githubusercontent.com/zeya10/svelte-bash/refs/heads/main/src/lib/svelte_bash_2.7.zip",
       "url_status": "online",
-      "host": "113.221.26.99:47375",
-      "date_added": "2026-10-05T19:17:13Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:30Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929442/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930611/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929439",
-      "url": "http://61.52.158.31:46875/i",
+      "id": "3930612",
+      "url": "https://raw.githubusercontent.com/nourdinekhelfane/frink-loop/HEAD/src/state/loop_frink_v2.1.zip",
       "url_status": "online",
-      "host": "61.52.158.31:46875",
-      "date_added": "2026-10-05T19:02:15Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:30Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929439/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930612/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929440",
-      "url": "http://115.57.251.137:46903/i",
-      "url_status": "offline",
-      "host": "115.57.251.137:46903",
-      "date_added": "2026-10-05T19:02:15Z",
+      "id": "3930609",
+      "url": "https://raw.githubusercontent.com/TakyiEric/mcpfs/refs/heads/main/bin/Software_2.9.zip",
+      "url_status": "online",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:29Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929440/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930609/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929435",
-      "url": "http://178.141.152.243:47468/i",
+      "id": "3930610",
+      "url": "https://raw.githubusercontent.com/patriarchal-boothose896/notebooklm-py/HEAD/tests/e2e/notebooklm_py_3.3.zip",
       "url_status": "online",
-      "host": "178.141.152.243:47468",
-      "date_added": "2026-10-05T19:02:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:29Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929435/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930610/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929436",
-      "url": "http://203.177.28.149:50942/i",
+      "id": "3930606",
+      "url": "https://raw.githubusercontent.com/omago123182/DualSenseX-DSX-Steam-Edition/refs/heads/main/DSXSource/Steam_Sense_Edition_DS_Dual_v3.8-beta.5.zip",
       "url_status": "online",
-      "host": "203.177.28.149:50942",
-      "date_added": "2026-10-05T19:02:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:28Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "Mozi"
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929436/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930606/",
+      "reporter": "shmulc"
     },
     {
-      "id": "3929437",
-      "url": "http://27.215.84.50:55461/bin.sh",
+      "id": "3930607",
+      "url": "https://raw.githubusercontent.com/Meusehorseradishroot8810/edge-browser-agent/refs/heads/main/media/v3.1.zip",
       "url_status": "online",
-      "host": "27.215.84.50:55461",
-      "date_added": "2026-10-05T19:02:14Z",
+      "host": "raw.githubusercontent.com",
+      "date_added": "2026-10-06T05:59:28Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3929437/",
-      "reporter": "adliwahid"
+      "tags": [
+        "github",
+        "LuaJIT-loader",
+        "SmartLoader",
+        "zip"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3930607/",
+      "reporter": "shmulc"
     }
   ]
 }
