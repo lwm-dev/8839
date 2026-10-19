@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T18:09:30.939Z",
+  "updated_at": "2026-10-19T00:10:22.821Z",
   "source": "URLhaus (abuse.ch)",
   "total": 100,
   "stats": {
@@ -7,150 +7,33 @@
       "恶意软件下载": 100
     },
     "byStatus": {
-      "online": 90,
-      "offline": 10,
+      "online": 95,
+      "offline": 5,
       "unknown": 0
     },
     "byTag": {
-      "Mozi": 42,
-      "32-bit": 22,
-      "arm": 11,
-      "elf": 35,
-      "mirai": 32,
-      "mips": 12,
-      "ua-wget": 9,
-      "521048dd5a8917782e586ac60bc1eceb": 2,
-      "dropped-by-remus": 2,
-      "exe": 6,
-      "malware": 4,
-      "pw-2026": 1,
-      "stealer": 3,
-      "pw-123": 1,
-      "cowrie": 2,
-      "honeypot": 1,
-      "GuLoader": 1,
-      "nsis": 1,
-      "pw-1523": 5,
-      "zip": 5,
-      "ps1": 1,
-      "pw-dvx.to": 1,
-      "AsyncRAT": 1,
-      "botnet": 2,
-      "iot": 1,
-      "tarpit-http": 1
+      "32-bit": 27,
+      "elf": 48,
+      "mips": 18,
+      "Mozi": 55,
+      "mirai": 44,
+      "arm": 12,
+      "cowrie": 5,
+      "honeypot": 5,
+      "mipsel": 1,
+      "ua-wget": 15,
+      "x86-32": 1,
+      "d52f85": 1,
+      "dropped-by-amadey": 1
     }
   },
   "urls": [
     {
-      "id": "3951949",
-      "url": "http://61.54.235.31:36551/i",
+      "id": "3952059",
+      "url": "http://116.139.202.60:37667/bin.sh",
       "url_status": "online",
-      "host": "61.54.235.31:36551",
-      "date_added": "2026-10-18T17:46:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951949/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951950",
-      "url": "http://103.140.87.105:45962/i",
-      "url_status": "online",
-      "host": "103.140.87.105:45962",
-      "date_added": "2026-10-18T17:46:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951950/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951947",
-      "url": "http://60.17.117.178:52362/i",
-      "url_status": "online",
-      "host": "60.17.117.178:52362",
-      "date_added": "2026-10-18T17:31:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951947/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951948",
-      "url": "http://191.243.174.35:44365/i",
-      "url_status": "online",
-      "host": "191.243.174.35:44365",
-      "date_added": "2026-10-18T17:31:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951948/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951946",
-      "url": "http://61.52.1.72:59868/i",
-      "url_status": "online",
-      "host": "61.52.1.72:59868",
-      "date_added": "2026-10-18T17:17:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951946/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951945",
-      "url": "http://210.208.111.36:33179/i",
-      "url_status": "online",
-      "host": "210.208.111.36:33179",
-      "date_added": "2026-10-18T17:17:18Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951945/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951944",
-      "url": "http://119.102.73.19:43236/bin.sh",
-      "url_status": "online",
-      "host": "119.102.73.19:43236",
-      "date_added": "2026-10-18T16:50:22Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951944/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951943",
-      "url": "http://61.53.135.7:46609/i",
-      "url_status": "online",
-      "host": "61.53.135.7:46609",
-      "date_added": "2026-10-18T16:49:19Z",
+      "host": "116.139.202.60:37667",
+      "date_added": "2026-10-18T23:59:23Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -159,27 +42,60 @@
         "mips",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951943/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952059/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951942",
-      "url": "http://46.163.181.104:54484/i",
+      "id": "3952058",
+      "url": "http://39.87.56.155:45658/bin.sh",
       "url_status": "online",
-      "host": "46.163.181.104:54484",
-      "date_added": "2026-10-18T16:47:13Z",
+      "host": "39.87.56.155:45658",
+      "date_added": "2026-10-18T23:46:21Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951942/",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952058/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952056",
+      "url": "http://84.95.86.227:38308/bin.sh",
+      "url_status": "online",
+      "host": "84.95.86.227:38308",
+      "date_added": "2026-10-18T23:46:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952056/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951941",
-      "url": "http://109.236.44.237:53813/i",
+      "id": "3952057",
+      "url": "http://79.106.74.163:55215/i",
       "url_status": "online",
-      "host": "109.236.44.237:53813",
-      "date_added": "2026-10-18T16:44:15Z",
+      "host": "79.106.74.163:55215",
+      "date_added": "2026-10-18T23:46:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952057/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952055",
+      "url": "http://210.208.110.4:50500/bin.sh",
+      "url_status": "online",
+      "host": "210.208.110.4:50500",
+      "date_added": "2026-10-18T23:41:16Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -189,15 +105,82 @@
         "mirai",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951941/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952055/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951940",
-      "url": "http://58.255.43.51:48371/i",
+      "id": "3952054",
+      "url": "http://188.191.73.227:39407/i",
+      "url_status": "online",
+      "host": "188.191.73.227:39407",
+      "date_added": "2026-10-18T23:38:20Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952054/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952053",
+      "url": "http://116.138.46.21:44894/i",
       "url_status": "offline",
-      "host": "58.255.43.51:48371",
-      "date_added": "2026-10-18T16:39:39Z",
+      "host": "116.138.46.21:44894",
+      "date_added": "2026-10-18T23:32:26Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952053/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952051",
+      "url": "http://115.49.240.127:36503/i",
+      "url_status": "online",
+      "host": "115.49.240.127:36503",
+      "date_added": "2026-10-18T23:32:14Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952051/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952052",
+      "url": "http://115.49.240.127:36503/bin.sh",
+      "url_status": "online",
+      "host": "115.49.240.127:36503",
+      "date_added": "2026-10-18T23:32:14Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952052/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952050",
+      "url": "http://154.223.128.222:37786/bin.sh",
+      "url_status": "online",
+      "host": "154.223.128.222:37786",
+      "date_added": "2026-10-18T23:32:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952050/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952049",
+      "url": "http://119.109.247.225:45570/bin.sh",
+      "url_status": "online",
+      "host": "119.109.247.225:45570",
+      "date_added": "2026-10-18T23:23:17Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -206,79 +189,83 @@
         "mips",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951940/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952049/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951938",
-      "url": "http://60.16.174.24:43977/i",
+      "id": "3952045",
+      "url": "http://115.51.89.179:55424/i",
       "url_status": "online",
-      "host": "60.16.174.24:43977",
-      "date_added": "2026-10-18T16:32:12Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951938/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951939",
-      "url": "http://60.17.117.178:52362/bin.sh",
-      "url_status": "online",
-      "host": "60.17.117.178:52362",
-      "date_added": "2026-10-18T16:32:12Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951939/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951937",
-      "url": "http://220.168.236.38:60522/i",
-      "url_status": "online",
-      "host": "220.168.236.38:60522",
-      "date_added": "2026-10-18T16:17:16Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951937/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951936",
-      "url": "http://221.202.107.18:41370/i",
-      "url_status": "online",
-      "host": "221.202.107.18:41370",
-      "date_added": "2026-10-18T16:17:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951936/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951935",
-      "url": "http://219.156.115.143:33235/i",
-      "url_status": "online",
-      "host": "219.156.115.143:33235",
-      "date_added": "2026-10-18T16:17:12Z",
+      "host": "115.51.89.179:55424",
+      "date_added": "2026-10-18T23:17:13Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951935/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952045/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951934",
-      "url": "http://109.236.44.237:53813/bin.sh",
+      "id": "3952046",
+      "url": "http://58.208.147.148:60323/i",
       "url_status": "online",
-      "host": "109.236.44.237:53813",
-      "date_added": "2026-10-18T16:16:12Z",
+      "host": "58.208.147.148:60323",
+      "date_added": "2026-10-18T23:17:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952046/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952047",
+      "url": "http://125.46.142.75:37129/i",
+      "url_status": "online",
+      "host": "125.46.142.75:37129",
+      "date_added": "2026-10-18T23:17:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952047/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952048",
+      "url": "http://42.229.204.193:41929/i",
+      "url_status": "online",
+      "host": "42.229.204.193:41929",
+      "date_added": "2026-10-18T23:17:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952048/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952044",
+      "url": "http://42.235.89.66:52632/i",
+      "url_status": "online",
+      "host": "42.235.89.66:52632",
+      "date_added": "2026-10-18T23:17:12Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952044/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952043",
+      "url": "http://110.178.52.149:58989/i",
+      "url_status": "online",
+      "host": "110.178.52.149:58989",
+      "date_added": "2026-10-18T23:12:18Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -288,15 +275,119 @@
         "mirai",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951934/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952043/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951933",
-      "url": "http://120.28.153.108:41321/bin.sh",
+      "id": "3952040",
+      "url": "http://116.138.46.21:44894/bin.sh",
       "url_status": "online",
-      "host": "120.28.153.108:41321",
-      "date_added": "2026-10-18T16:09:23Z",
+      "host": "116.138.46.21:44894",
+      "date_added": "2026-10-18T23:02:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952040/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952041",
+      "url": "http://182.119.63.184:58517/i",
+      "url_status": "online",
+      "host": "182.119.63.184:58517",
+      "date_added": "2026-10-18T23:02:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952041/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952042",
+      "url": "http://163.142.92.36:40964/i",
+      "url_status": "online",
+      "host": "163.142.92.36:40964",
+      "date_added": "2026-10-18T23:02:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "cowrie",
+        "elf",
+        "honeypot",
+        "mipsel",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952042/",
+      "reporter": "ksi_digital"
+    },
+    {
+      "id": "3952037",
+      "url": "http://182.117.71.8:42909/i",
+      "url_status": "online",
+      "host": "182.117.71.8:42909",
+      "date_added": "2026-10-18T23:02:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952037/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952038",
+      "url": "http://115.57.61.62:58706/bin.sh",
+      "url_status": "online",
+      "host": "115.57.61.62:58706",
+      "date_added": "2026-10-18T23:02:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952038/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952039",
+      "url": "http://182.126.244.240:60277/bin.sh",
+      "url_status": "online",
+      "host": "182.126.244.240:60277",
+      "date_added": "2026-10-18T23:02:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952039/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952036",
+      "url": "http://61.53.140.104:41091/i",
+      "url_status": "online",
+      "host": "61.53.140.104:41091",
+      "date_added": "2026-10-18T23:00:18Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "cowrie",
+        "elf",
+        "honeypot",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952036/",
+      "reporter": "ksi_digital"
+    },
+    {
+      "id": "3952035",
+      "url": "http://110.178.52.149:58989/bin.sh",
+      "url_status": "online",
+      "host": "110.178.52.149:58989",
+      "date_added": "2026-10-18T22:50:23Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -306,43 +397,73 @@
         "mirai",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951933/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952035/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951932",
-      "url": "http://113.53.69.165:46895/i",
+      "id": "3952034",
+      "url": "http://42.228.105.214:54491/i",
       "url_status": "online",
-      "host": "113.53.69.165:46895",
-      "date_added": "2026-10-18T16:02:12Z",
+      "host": "42.228.105.214:54491",
+      "date_added": "2026-10-18T22:47:12Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951932/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952034/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951931",
-      "url": "http://113.53.69.165:46895/bin.sh",
+      "id": "3952032",
+      "url": "http://42.228.32.100:37587/i",
       "url_status": "online",
-      "host": "113.53.69.165:46895",
-      "date_added": "2026-10-18T15:47:12Z",
+      "host": "42.228.32.100:37587",
+      "date_added": "2026-10-18T22:47:11Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952032/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952033",
+      "url": "http://115.55.218.205:52417/i",
+      "url_status": "online",
+      "host": "115.55.218.205:52417",
+      "date_added": "2026-10-18T22:47:11Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951931/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952033/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951930",
-      "url": "http://182.121.112.125:40520/i",
+      "id": "3952031",
+      "url": "http://130.12.209.153:53341/bin.sh",
       "url_status": "online",
-      "host": "182.121.112.125:40520",
-      "date_added": "2026-10-18T15:44:16Z",
+      "host": "130.12.209.153:53341",
+      "date_added": "2026-10-18T22:34:20Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952031/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952030",
+      "url": "http://42.52.234.252:60329/bin.sh",
+      "url_status": "offline",
+      "host": "42.52.234.252:60329",
+      "date_added": "2026-10-18T22:26:37Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -351,310 +472,48 @@
         "mips",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951930/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952030/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951929",
-      "url": "http://115.58.96.86:53524/i",
+      "id": "3952029",
+      "url": "http://123.14.234.243:59244/i",
       "url_status": "online",
-      "host": "115.58.96.86:53524",
-      "date_added": "2026-10-18T15:33:13Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951929/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951925",
-      "url": "http://115.55.246.245:32771/i",
-      "url_status": "online",
-      "host": "115.55.246.245:32771",
-      "date_added": "2026-10-18T15:32:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951925/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951926",
-      "url": "http://115.55.248.100:40930/i",
-      "url_status": "online",
-      "host": "115.55.248.100:40930",
-      "date_added": "2026-10-18T15:32:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951926/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951927",
-      "url": "http://115.63.165.189:33113/i",
-      "url_status": "online",
-      "host": "115.63.165.189:33113",
-      "date_added": "2026-10-18T15:32:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951927/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951928",
-      "url": "http://27.44.144.88:42447/i",
-      "url_status": "online",
-      "host": "27.44.144.88:42447",
-      "date_added": "2026-10-18T15:32:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951928/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951920",
-      "url": "http://115.59.230.94:52120/i",
-      "url_status": "online",
-      "host": "115.59.230.94:52120",
-      "date_added": "2026-10-18T15:32:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951920/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951921",
-      "url": "http://115.55.246.245:32771/bin.sh",
-      "url_status": "online",
-      "host": "115.55.246.245:32771",
-      "date_added": "2026-10-18T15:32:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951921/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951922",
-      "url": "http://115.57.228.185:44809/i",
-      "url_status": "online",
-      "host": "115.57.228.185:44809",
-      "date_added": "2026-10-18T15:32:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951922/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951923",
-      "url": "http://115.61.17.94:51620/i",
-      "url_status": "online",
-      "host": "115.61.17.94:51620",
-      "date_added": "2026-10-18T15:32:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951923/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951924",
-      "url": "http://182.122.238.92:60800/i",
-      "url_status": "online",
-      "host": "182.122.238.92:60800",
-      "date_added": "2026-10-18T15:32:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951924/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951919",
-      "url": "http://182.116.20.74:46236/i",
-      "url_status": "online",
-      "host": "182.116.20.74:46236",
-      "date_added": "2026-10-18T15:29:20Z",
+      "host": "123.14.234.243:59244",
+      "date_added": "2026-10-18T22:25:18Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "elf",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951919/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952029/",
       "reporter": "wristhulk"
     },
     {
-      "id": "3951918",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.arm5",
+      "id": "3952028",
+      "url": "http://202.166.165.60:38230/i",
       "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:12:12Z",
+      "host": "202.166.165.60:38230",
+      "date_added": "2026-10-18T22:24:23Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
+        "cowrie",
         "elf",
-        "mirai",
-        "ua-wget"
+        "honeypot",
+        "mips",
+        "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951918/",
-      "reporter": "ClearlyNotB"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952028/",
+      "reporter": "ksi_digital"
     },
     {
-      "id": "3951915",
-      "url": "http://176.65.139.76/bins/mpsl",
+      "id": "3952027",
+      "url": "http://103.249.199.5:55492/i",
       "url_status": "online",
-      "host": "176.65.139.76",
-      "date_added": "2026-10-18T15:11:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951915/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951916",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.m68k",
-      "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:11:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951916/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951917",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.arc",
-      "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:11:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951917/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951911",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.arm6",
-      "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:10:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951911/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951912",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.arm",
-      "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:10:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951912/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951913",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.mips",
-      "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:10:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951913/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951914",
-      "url": "http://176.65.139.143/hiddenbin/boatnet.mpsl",
-      "url_status": "online",
-      "host": "176.65.139.143",
-      "date_added": "2026-10-18T15:10:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951914/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951910",
-      "url": "http://45.198.224.164/arm4",
-      "url_status": "online",
-      "host": "45.198.224.164",
-      "date_added": "2026-10-18T15:10:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "mirai",
-        "ua-wget"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951910/",
-      "reporter": "ClearlyNotB"
-    },
-    {
-      "id": "3951909",
-      "url": "http://103.87.194.104:54945/i",
-      "url_status": "online",
-      "host": "103.87.194.104:54945",
-      "date_added": "2026-10-18T15:02:17Z",
+      "host": "103.249.199.5:55492",
+      "date_added": "2026-10-18T22:21:15Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -664,324 +523,15 @@
         "mirai",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951909/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952027/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951908",
-      "url": "http://182.127.28.133:35957/i",
+      "id": "3952026",
+      "url": "http://111.196.8.68:58777/i",
       "url_status": "online",
-      "host": "182.127.28.133:35957",
-      "date_added": "2026-10-18T14:36:22Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951908/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951907",
-      "url": "http://103.87.194.104:54945/bin.sh",
-      "url_status": "online",
-      "host": "103.87.194.104:54945",
-      "date_added": "2026-10-18T14:33:11Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951907/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951906",
-      "url": "http://182.127.28.133:35957/bin.sh",
-      "url_status": "online",
-      "host": "182.127.28.133:35957",
-      "date_added": "2026-10-18T14:32:22Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951906/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951905",
-      "url": "http://193.233.75.14/WindowsUpdateBox.exe",
-      "url_status": "online",
-      "host": "193.233.75.14",
-      "date_added": "2026-10-18T14:27:17Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "521048dd5a8917782e586ac60bc1eceb",
-        "dropped-by-remus"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951905/",
-      "reporter": "Bitsight"
-    },
-    {
-      "id": "3951904",
-      "url": "http://193.233.75.28/RuntimeBroker.exe",
-      "url_status": "online",
-      "host": "193.233.75.28",
-      "date_added": "2026-10-18T14:24:12Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "521048dd5a8917782e586ac60bc1eceb",
-        "dropped-by-remus"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951904/",
-      "reporter": "Bitsight"
-    },
-    {
-      "id": "3951903",
-      "url": "http://113.239.65.72:54779/bin.sh",
-      "url_status": "online",
-      "host": "113.239.65.72:54779",
-      "date_added": "2026-10-18T14:17:13Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951903/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951902",
-      "url": "http://27.44.146.197:56881/i",
-      "url_status": "online",
-      "host": "27.44.146.197:56881",
-      "date_added": "2026-10-18T14:02:22Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951902/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951901",
-      "url": "http://36.251.33.146:48437/i",
-      "url_status": "online",
-      "host": "36.251.33.146:48437",
-      "date_added": "2026-10-18T14:02:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951901/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951900",
-      "url": "http://113.53.69.164:35455/i",
-      "url_status": "online",
-      "host": "113.53.69.164:35455",
-      "date_added": "2026-10-18T13:53:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951900/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951899",
-      "url": "http://113.53.69.164:35455/bin.sh",
-      "url_status": "online",
-      "host": "113.53.69.164:35455",
-      "date_added": "2026-10-18T13:52:17Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "arm",
-        "elf",
-        "mirai",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951899/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951898",
-      "url": "http://ray-id-v3.com/g84kfS5n/Uploads/build_amd.exe_Melted.exe",
-      "url_status": "offline",
-      "host": "ray-id-v3.com",
-      "date_added": "2026-10-18T13:47:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "exe"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951898/",
-      "reporter": "anonymous"
-    },
-    {
-      "id": "3951897",
-      "url": "http://119.109.235.52:43705/bin.sh",
-      "url_status": "online",
-      "host": "119.109.235.52:43705",
-      "date_added": "2026-10-18T13:41:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951897/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951896",
-      "url": "http://60.22.43.108:55415/bin.sh",
-      "url_status": "offline",
-      "host": "60.22.43.108:55415",
-      "date_added": "2026-10-18T13:37:26Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951896/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951892",
-      "url": "http://182.127.155.165:39688/i",
-      "url_status": "online",
-      "host": "182.127.155.165:39688",
-      "date_added": "2026-10-18T13:31:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951892/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951893",
-      "url": "http://182.127.69.150:44146/i",
-      "url_status": "online",
-      "host": "182.127.69.150:44146",
-      "date_added": "2026-10-18T13:31:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951893/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951894",
-      "url": "http://39.74.86.102:54002/i",
-      "url_status": "online",
-      "host": "39.74.86.102:54002",
-      "date_added": "2026-10-18T13:31:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951894/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951895",
-      "url": "http://183.34.182.54:44417/i",
-      "url_status": "online",
-      "host": "183.34.182.54:44417",
-      "date_added": "2026-10-18T13:31:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "mirai"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951895/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951891",
-      "url": "http://119.109.235.52:43705/i",
-      "url_status": "online",
-      "host": "119.109.235.52:43705",
-      "date_added": "2026-10-18T13:11:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "32-bit",
-        "elf",
-        "mips",
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951891/",
-      "reporter": "geenensp"
-    },
-    {
-      "id": "3951890",
-      "url": "https://download2284.mediafire.com/3x733byp9p6gX7fUuGOZnbJlVnshl6MQmMHN_FpkswsQcDBSA63CDS207CYHdjfnG_yu_Ci7zLUHwz73W0SChFIhEAUqziNiXjcf9uRgRQaUcRnAK9Xg1oTfIYFqGi8OOxQfOauvEuN287PR0ODQvsRtt3o9ArUaiwEvnPAPc7E/bels21pbckq68gg/Mod_Pack_x64.rar",
-      "url_status": "online",
-      "host": "download2284.mediafire.com",
-      "date_added": "2026-10-18T13:07:25Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "malware",
-        "pw-2026",
-        "stealer"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951890/",
-      "reporter": "anonymous"
-    },
-    {
-      "id": "3951889",
-      "url": "https://epstexsecutor.com/getfile/download.zip",
-      "url_status": "online",
-      "host": "epstexsecutor.com",
-      "date_added": "2026-10-18T13:07:23Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "malware",
-        "pw-123",
-        "stealer"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951889/",
-      "reporter": "anonymous"
-    },
-    {
-      "id": "3951888",
-      "url": "http://42.177.122.83:34345/bin.sh",
-      "url_status": "online",
-      "host": "42.177.122.83:34345",
-      "date_added": "2026-10-18T13:07:22Z",
+      "host": "111.196.8.68:58777",
+      "date_added": "2026-10-18T22:16:15Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -992,234 +542,323 @@
         "mirai",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951888/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952026/",
       "reporter": "ksi_digital"
     },
     {
-      "id": "3951887",
-      "url": "http://33841-28554.dchost.com/vDsuzsiIMAiwv69.bin",
-      "url_status": "offline",
-      "host": "33841-28554.dchost.com",
-      "date_added": "2026-10-18T13:07:17Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "GuLoader",
-        "nsis"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951887/",
-      "reporter": "Darkfibr"
-    },
-    {
-      "id": "3951886",
-      "url": "https://2.26.150.12/assets/7za.exe",
+      "id": "3952025",
+      "url": "http://59.96.137.253:48155/i",
       "url_status": "online",
-      "host": "2.26.150.12",
-      "date_added": "2026-10-18T13:06:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "exe"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951886/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951885",
-      "url": "https://2.26.150.12/assets/2.zip",
-      "url_status": "online",
-      "host": "2.26.150.12",
-      "date_added": "2026-10-18T13:06:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "pw-1523",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951885/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951883",
-      "url": "https://gitview.sbs/assets/7za.exe",
-      "url_status": "online",
-      "host": "gitview.sbs",
-      "date_added": "2026-10-18T13:05:21Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "exe"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951883/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951884",
-      "url": "https://gitsl.xyz/assets/7za.exe",
-      "url_status": "online",
-      "host": "gitsl.xyz",
-      "date_added": "2026-10-18T13:05:21Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "exe"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951884/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951882",
-      "url": "https://viewgit.sbs/assets/7za.exe",
-      "url_status": "online",
-      "host": "viewgit.sbs",
-      "date_added": "2026-10-18T13:05:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "exe"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951882/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951881",
-      "url": "https://gitrm.sbs/assets/7za.exe",
-      "url_status": "online",
-      "host": "gitrm.sbs",
-      "date_added": "2026-10-18T13:04:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "exe"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951881/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951880",
-      "url": "https://viewgit.sbs/assets/2.zip",
-      "url_status": "online",
-      "host": "viewgit.sbs",
-      "date_added": "2026-10-18T13:04:17Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "pw-1523",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951880/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951878",
-      "url": "https://gitview.sbs/assets/2.zip",
-      "url_status": "online",
-      "host": "gitview.sbs",
-      "date_added": "2026-10-18T13:04:16Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "pw-1523",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951878/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951879",
-      "url": "https://gitsl.xyz/assets/2.zip",
-      "url_status": "online",
-      "host": "gitsl.xyz",
-      "date_added": "2026-10-18T13:04:16Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "pw-1523",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951879/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951877",
-      "url": "https://gitrm.sbs/assets/2.zip",
-      "url_status": "online",
-      "host": "gitrm.sbs",
-      "date_added": "2026-10-18T13:03:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "pw-1523",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951877/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951875",
-      "url": "http://61.54.50.237:46440/i",
-      "url_status": "online",
-      "host": "61.54.50.237:46440",
-      "date_added": "2026-10-18T13:02:18Z",
+      "host": "59.96.137.253:48155",
+      "date_added": "2026-10-18T22:02:14Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951875/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952025/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951876",
-      "url": "http://125.59.182.15:42328/i",
+      "id": "3952021",
+      "url": "http://42.85.50.94:37254/i",
       "url_status": "online",
-      "host": "125.59.182.15:42328",
-      "date_added": "2026-10-18T13:02:18Z",
+      "host": "42.85.50.94:37254",
+      "date_added": "2026-10-18T22:02:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952021/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952022",
+      "url": "http://182.127.69.150:44146/bin.sh",
+      "url_status": "online",
+      "host": "182.127.69.150:44146",
+      "date_added": "2026-10-18T22:02:13Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951876/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952022/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951874",
-      "url": "http://170.254.10.219:43413/i",
+      "id": "3952023",
+      "url": "http://115.51.89.179:55424/bin.sh",
       "url_status": "online",
-      "host": "170.254.10.219:43413",
-      "date_added": "2026-10-18T13:02:17Z",
+      "host": "115.51.89.179:55424",
+      "date_added": "2026-10-18T22:02:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952023/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952024",
+      "url": "http://5.29.200.0:36167/i",
+      "url_status": "online",
+      "host": "5.29.200.0:36167",
+      "date_added": "2026-10-18T22:02:13Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "mirai"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951874/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952024/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951872",
-      "url": "http://42.228.36.96:55963/i",
+      "id": "3952011",
+      "url": "http://185.228.72.128/bins/ppc",
       "url_status": "online",
-      "host": "42.228.36.96:55963",
-      "date_added": "2026-10-18T13:00:18Z",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "32-bit",
         "elf",
-        "mips",
-        "Mozi"
+        "mirai",
+        "ua-wget"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951872/",
-      "reporter": "geenensp"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952011/",
+      "reporter": "ClearlyNotB"
     },
     {
-      "id": "3951873",
-      "url": "http://119.102.73.19:43236/i",
+      "id": "3952012",
+      "url": "http://185.228.72.128/bins/m68k",
       "url_status": "online",
-      "host": "119.102.73.19:43236",
-      "date_added": "2026-10-18T13:00:18Z",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952012/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952013",
+      "url": "http://185.228.72.128/m68k",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952013/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952014",
+      "url": "http://185.228.72.128/bins/sh4",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952014/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952015",
+      "url": "http://185.228.72.128/bins/arm",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952015/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952016",
+      "url": "http://185.228.72.128/bins/arm5",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952016/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952017",
+      "url": "http://185.228.72.128/spc",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952017/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952018",
+      "url": "http://185.228.72.128/arm/",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952018/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952019",
+      "url": "http://185.228.72.128/bins/arm7",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952019/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952020",
+      "url": "http://185.228.72.128/arm7",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952020/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952006",
+      "url": "http://185.228.72.128/bins/arm4",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952006/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952007",
+      "url": "http://185.228.72.128/ppc",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952007/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952008",
+      "url": "http://185.228.72.128/bins/arm6",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952008/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952009",
+      "url": "http://185.228.72.128/bins/mips",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952009/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952010",
+      "url": "http://185.228.72.128/mips",
+      "url_status": "online",
+      "host": "185.228.72.128",
+      "date_added": "2026-10-18T21:52:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952010/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952005",
+      "url": "http://103.249.199.5:55492/bin.sh",
+      "url_status": "online",
+      "host": "103.249.199.5:55492",
+      "date_added": "2026-10-18T21:50:14Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -1229,15 +868,55 @@
         "mirai",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951873/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952005/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951871",
-      "url": "http://77.79.160.210:45575/i",
+      "id": "3952004",
+      "url": "http://182.127.80.127:60314/i",
       "url_status": "online",
-      "host": "77.79.160.210:45575",
-      "date_added": "2026-10-18T13:00:17Z",
+      "host": "182.127.80.127:60314",
+      "date_added": "2026-10-18T21:47:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952004/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952002",
+      "url": "http://219.157.161.173:43108/bin.sh",
+      "url_status": "online",
+      "host": "219.157.161.173:43108",
+      "date_added": "2026-10-18T21:46:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952002/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952003",
+      "url": "http://113.238.163.85:48723/bin.sh",
+      "url_status": "online",
+      "host": "113.238.163.85:48723",
+      "date_added": "2026-10-18T21:46:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952003/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3952001",
+      "url": "http://222.138.78.63:42191/i",
+      "url_status": "online",
+      "host": "222.138.78.63:42191",
+      "date_added": "2026-10-18T21:43:29Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -1246,100 +925,15 @@
         "mips",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951871/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952001/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951870",
-      "url": "https://gitrm.sbs/apix.ps1",
-      "url_status": "offline",
-      "host": "gitrm.sbs",
-      "date_added": "2026-10-18T12:40:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "ps1"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951870/",
-      "reporter": "NDA0E"
-    },
-    {
-      "id": "3951869",
-      "url": "http://175.165.85.155:60873/i",
-      "url_status": "offline",
-      "host": "175.165.85.155:60873",
-      "date_added": "2026-10-18T12:31:35Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951869/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951868",
-      "url": "http://60.22.43.108:55415/i",
+      "id": "3952000",
+      "url": "http://113.237.61.46:34289/i",
       "url_status": "online",
-      "host": "60.22.43.108:55415",
-      "date_added": "2026-10-18T12:31:22Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951868/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951867",
-      "url": "https://cdk.monther.life/DvnX.zip",
-      "url_status": "online",
-      "host": "cdk.monther.life",
-      "date_added": "2026-10-18T12:24:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "malware",
-        "pw-dvx.to",
-        "stealer"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951867/",
-      "reporter": "anonymous"
-    },
-    {
-      "id": "3951866",
-      "url": "http://64.235.41.83/AI",
-      "url_status": "online",
-      "host": "64.235.41.83",
-      "date_added": "2026-10-18T12:24:18Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "AsyncRAT",
-        "botnet",
-        "malware"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951866/",
-      "reporter": "phatcskhmmo"
-    },
-    {
-      "id": "3951865",
-      "url": "http://178.132.198.200/bins.sh",
-      "url_status": "offline",
-      "host": "178.132.198.200",
-      "date_added": "2026-10-18T12:24:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf",
-        "iot"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951865/",
-      "reporter": "HoneyLabs"
-    },
-    {
-      "id": "3951864",
-      "url": "http://182.127.127.58:40976/bin.sh",
-      "url_status": "online",
-      "host": "182.127.127.58:40976",
-      "date_added": "2026-10-18T12:18:16Z",
+      "host": "113.237.61.46:34289",
+      "date_added": "2026-10-18T21:35:14Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -1348,162 +942,602 @@
         "mips",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951864/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952000/",
       "reporter": "geenensp"
     },
     {
-      "id": "3951863",
-      "url": "http://182.119.34.172:33099/i",
+      "id": "3951998",
+      "url": "http://219.157.177.103:58419/i",
       "url_status": "online",
-      "host": "182.119.34.172:33099",
-      "date_added": "2026-10-18T12:17:28Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951863/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951862",
-      "url": "http://177.71.52.164:55442/i",
-      "url_status": "online",
-      "host": "177.71.52.164:55442",
-      "date_added": "2026-10-18T12:17:20Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951862/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951861",
-      "url": "http://182.119.231.33:50342/i",
-      "url_status": "online",
-      "host": "182.119.231.33:50342",
-      "date_added": "2026-10-18T12:17:18Z",
+      "host": "219.157.177.103:58419",
+      "date_added": "2026-10-18T21:32:18Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951861/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951998/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951860",
-      "url": "http://123.129.132.19:35183/i",
+      "id": "3951999",
+      "url": "http://219.157.37.29:56530/i",
       "url_status": "online",
-      "host": "123.129.132.19:35183",
-      "date_added": "2026-10-18T12:02:18Z",
+      "host": "219.157.37.29:56530",
+      "date_added": "2026-10-18T21:32:18Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951860/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951999/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951859",
-      "url": "http://222.134.175.170:40076/bin.sh",
+      "id": "3951992",
+      "url": "http://42.225.205.23:45755/bin.sh",
       "url_status": "online",
-      "host": "222.134.175.170:40076",
-      "date_added": "2026-10-18T11:55:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "elf"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951859/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3951858",
-      "url": "http://203.161.41.148:8088/iranbot-ultimate.$a",
-      "url_status": "offline",
-      "host": "203.161.41.148:8088",
-      "date_added": "2026-10-18T11:55:14Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "botnet",
-        "cowrie"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951858/",
-      "reporter": "Jerry1113"
-    },
-    {
-      "id": "3951857",
-      "url": "http://222.137.145.23:51269/bin.sh",
-      "url_status": "online",
-      "host": "222.137.145.23:51269",
-      "date_added": "2026-10-18T11:47:19Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951857/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951856",
-      "url": "http://42.85.50.94:37254/bin.sh",
-      "url_status": "online",
-      "host": "42.85.50.94:37254",
-      "date_added": "2026-10-18T11:47:16Z",
+      "host": "42.225.205.23:45755",
+      "date_added": "2026-10-18T21:32:17Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951856/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951992/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951855",
-      "url": "http://42.57.181.170:39987/bin.sh",
+      "id": "3951993",
+      "url": "http://210.208.110.4:50500/i",
       "url_status": "online",
-      "host": "42.57.181.170:39987",
-      "date_added": "2026-10-18T11:47:15Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951855/",
-      "reporter": "adliwahid"
-    },
-    {
-      "id": "3951854",
-      "url": "http://210.208.110.21:43957/i",
-      "url_status": "online",
-      "host": "210.208.110.21:43957",
-      "date_added": "2026-10-18T11:33:17Z",
+      "host": "210.208.110.4:50500",
+      "date_added": "2026-10-18T21:32:17Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
         "mirai"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951854/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951993/",
       "reporter": "adliwahid"
     },
     {
-      "id": "3951853",
-      "url": "http://210.208.111.234:37639/i",
+      "id": "3951994",
+      "url": "http://187.110.223.227:44522/i",
+      "url_status": "online",
+      "host": "187.110.223.227:44522",
+      "date_added": "2026-10-18T21:32:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951994/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951995",
+      "url": "http://210.208.111.220:42267/i",
+      "url_status": "online",
+      "host": "210.208.111.220:42267",
+      "date_added": "2026-10-18T21:32:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951995/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951996",
+      "url": "http://115.50.38.196:33047/bin.sh",
+      "url_status": "online",
+      "host": "115.50.38.196:33047",
+      "date_added": "2026-10-18T21:32:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951996/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951997",
+      "url": "http://113.238.193.62:33943/i",
+      "url_status": "online",
+      "host": "113.238.193.62:33943",
+      "date_added": "2026-10-18T21:32:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951997/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951990",
+      "url": "http://216.126.86.52:39655/i",
+      "url_status": "online",
+      "host": "216.126.86.52:39655",
+      "date_added": "2026-10-18T21:32:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951990/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951991",
+      "url": "http://216.126.86.52:39655/bin.sh",
+      "url_status": "online",
+      "host": "216.126.86.52:39655",
+      "date_added": "2026-10-18T21:32:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951991/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951989",
+      "url": "http://116.73.73.13:57538/i",
+      "url_status": "offline",
+      "host": "116.73.73.13:57538",
+      "date_added": "2026-10-18T21:15:31Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951989/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951988",
+      "url": "http://119.186.211.144:42069/i",
+      "url_status": "online",
+      "host": "119.186.211.144:42069",
+      "date_added": "2026-10-18T21:07:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951988/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951987",
+      "url": "http://45.153.34.166/bins/sora.x86",
+      "url_status": "online",
+      "host": "45.153.34.166",
+      "date_added": "2026-10-18T21:05:19Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mirai",
+        "x86-32"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951987/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951986",
+      "url": "http://222.137.83.78:48903/bin.sh",
+      "url_status": "online",
+      "host": "222.137.83.78:48903",
+      "date_added": "2026-10-18T21:03:14Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951986/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951984",
+      "url": "http://123.10.70.112:36801/i",
+      "url_status": "online",
+      "host": "123.10.70.112:36801",
+      "date_added": "2026-10-18T21:02:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951984/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951985",
+      "url": "http://125.40.86.93:39853/i",
+      "url_status": "online",
+      "host": "125.40.86.93:39853",
+      "date_added": "2026-10-18T21:02:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951985/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951983",
+      "url": "http://123.11.11.175:38595/bin.sh",
+      "url_status": "online",
+      "host": "123.11.11.175:38595",
+      "date_added": "2026-10-18T21:02:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951983/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951982",
+      "url": "http://115.58.96.86:53524/bin.sh",
+      "url_status": "online",
+      "host": "115.58.96.86:53524",
+      "date_added": "2026-10-18T20:47:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951982/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951980",
+      "url": "http://115.48.163.254:44939/i",
+      "url_status": "online",
+      "host": "115.48.163.254:44939",
+      "date_added": "2026-10-18T20:47:11Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951980/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951981",
+      "url": "http://115.57.61.62:58706/i",
+      "url_status": "online",
+      "host": "115.57.61.62:58706",
+      "date_added": "2026-10-18T20:47:11Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951981/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951979",
+      "url": "http://123.14.238.189:52224/i",
+      "url_status": "online",
+      "host": "123.14.238.189:52224",
+      "date_added": "2026-10-18T20:32:12Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951979/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951978",
+      "url": "http://117.24.216.241:47558/bin.sh",
+      "url_status": "online",
+      "host": "117.24.216.241:47558",
+      "date_added": "2026-10-18T20:29:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951978/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951977",
+      "url": "http://120.28.144.161:38947/i",
+      "url_status": "online",
+      "host": "120.28.144.161:38947",
+      "date_added": "2026-10-18T20:25:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "arm",
+        "cowrie",
+        "elf",
+        "honeypot",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951977/",
+      "reporter": "ksi_digital"
+    },
+    {
+      "id": "3951976",
+      "url": "http://125.42.33.227:57063/i",
+      "url_status": "online",
+      "host": "125.42.33.227:57063",
+      "date_added": "2026-10-18T20:17:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951976/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951974",
+      "url": "http://41.142.23.166:39452/bin.sh",
+      "url_status": "offline",
+      "host": "41.142.23.166:39452",
+      "date_added": "2026-10-18T20:17:12Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951974/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951975",
+      "url": "http://125.42.26.110:42454/bin.sh",
+      "url_status": "online",
+      "host": "125.42.26.110:42454",
+      "date_added": "2026-10-18T20:17:12Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951975/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951973",
+      "url": "http://42.230.189.65:38723/bin.sh",
+      "url_status": "online",
+      "host": "42.230.189.65:38723",
+      "date_added": "2026-10-18T20:00:26Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951973/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951972",
+      "url": "http://95.155.201.65:37302/i",
+      "url_status": "online",
+      "host": "95.155.201.65:37302",
+      "date_added": "2026-10-18T19:54:20Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951972/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951971",
+      "url": "http://182.121.249.23:37832/i",
+      "url_status": "online",
+      "host": "182.121.249.23:37832",
+      "date_added": "2026-10-18T19:46:22Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951971/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951970",
+      "url": "http://115.61.17.94:51620/bin.sh",
+      "url_status": "online",
+      "host": "115.61.17.94:51620",
+      "date_added": "2026-10-18T19:38:22Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951970/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951969",
+      "url": "http://125.43.41.115:33753/i",
+      "url_status": "online",
+      "host": "125.43.41.115:33753",
+      "date_added": "2026-10-18T19:32:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951969/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951968",
+      "url": "http://123.8.92.97:43000/bin.sh",
+      "url_status": "online",
+      "host": "123.8.92.97:43000",
+      "date_added": "2026-10-18T19:32:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951968/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951967",
+      "url": "http://95.155.201.65:37302/bin.sh",
+      "url_status": "online",
+      "host": "95.155.201.65:37302",
+      "date_added": "2026-10-18T19:23:20Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951967/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951966",
+      "url": "http://112.248.28.170:56104/i",
+      "url_status": "online",
+      "host": "112.248.28.170:56104",
+      "date_added": "2026-10-18T19:20:21Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951966/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951965",
+      "url": "http://62.60.226.140/files/7782139129/vkAUWIc.exe",
+      "url_status": "offline",
+      "host": "62.60.226.140",
+      "date_added": "2026-10-18T19:20:18Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "d52f85",
+        "dropped-by-amadey"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951965/",
+      "reporter": "Bitsight"
+    },
+    {
+      "id": "3951964",
+      "url": "http://42.228.85.165:36608/bin.sh",
+      "url_status": "online",
+      "host": "42.228.85.165:36608",
+      "date_added": "2026-10-18T19:17:12Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951964/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951963",
+      "url": "http://42.225.69.1:56329/i",
+      "url_status": "online",
+      "host": "42.225.69.1:56329",
+      "date_added": "2026-10-18T19:02:24Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951963/",
+      "reporter": "adliwahid"
+    },
+    {
+      "id": "3951962",
+      "url": "http://112.248.28.170:56104/bin.sh",
+      "url_status": "online",
+      "host": "112.248.28.170:56104",
+      "date_added": "2026-10-18T18:59:50Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951962/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3951961",
+      "url": "http://210.208.111.234:37639/bin.sh",
       "url_status": "online",
       "host": "210.208.111.234:37639",
-      "date_added": "2026-10-18T11:32:14Z",
+      "date_added": "2026-10-18T18:52:26Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "mirai"
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951853/",
-      "reporter": "adliwahid"
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951961/",
+      "reporter": "geenensp"
     },
     {
-      "id": "3951852",
-      "url": "http://27.44.145.82:58330/i",
-      "url_status": "offline",
-      "host": "27.44.145.82:58330",
-      "date_added": "2026-10-18T11:31:23Z",
+      "id": "3951960",
+      "url": "http://84.95.86.227:38308/i",
+      "url_status": "online",
+      "host": "84.95.86.227:38308",
+      "date_added": "2026-10-18T18:41:24Z",
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
@@ -1512,23 +1546,8 @@
         "mips",
         "Mozi"
       ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951852/",
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951960/",
       "reporter": "geenensp"
-    },
-    {
-      "id": "3951851",
-      "url": "http://103.82.121.146:43570/Mozi.m",
-      "url_status": "offline",
-      "host": "103.82.121.146:43570",
-      "date_added": "2026-10-18T11:29:27Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "Mozi",
-        "tarpit-http"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3951851/",
-      "reporter": "anonymous"
     }
   ]
 }
