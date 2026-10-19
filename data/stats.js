@@ -3,7 +3,7 @@
  */
 window.__DATA__ = window.__DATA__ || {};
 window.__DATA__.stats = {
-  "updated_at": "2026-10-19T00:10:22.822Z",
+  "updated_at": "2026-10-19T06:21:05.463Z",
   "source": "Google Safe Browsing API",
   "lists": [],
   "note": "未配置 GSB_API_KEY，暂无 Safe Browsing 统计数据"
