@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T06:18:29.415Z",
+  "updated_at": "2026-10-20T12:18:28.360Z",
   "source": "URLhaus (abuse.ch)",
   "total": 100,
   "stats": {
@@ -7,25 +7,456 @@
       "恶意软件下载": 100
     },
     "byStatus": {
-      "online": 100,
-      "offline": 0,
+      "online": 97,
+      "offline": 3,
       "unknown": 0
     },
     "byTag": {
-      "elf": 4,
-      "32-bit": 2,
-      "mips": 1,
-      "Mozi": 3,
-      "github": 96,
-      "rar": 37,
-      "zapret": 96,
-      "SalatStealer": 64,
-      "zip": 59,
-      "arm": 1,
-      "mirai": 1
+      "32-bit": 21,
+      "elf": 26,
+      "mips": 16,
+      "Mozi": 25,
+      "arm": 7,
+      "mirai": 9,
+      "ClickFix": 1,
+      "macOS": 1,
+      "MacSync": 1,
+      "zsh": 1,
+      "cowrie": 2,
+      "honeypot": 2,
+      "ua-wget": 1,
+      "github": 71,
+      "rar": 25,
+      "zapret": 71,
+      "SalatStealer": 47,
+      "zip": 46
     }
   },
   "urls": [
+    {
+      "id": "3952948",
+      "url": "http://60.23.234.248:36741/i",
+      "url_status": "online",
+      "host": "60.23.234.248:36741",
+      "date_added": "2026-10-20T12:04:10Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952948/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952947",
+      "url": "http://119.102.77.73:43236/bin.sh",
+      "url_status": "online",
+      "host": "119.102.77.73:43236",
+      "date_added": "2026-10-20T10:53:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952947/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952946",
+      "url": "http://123.4.251.57:35535/bin.sh",
+      "url_status": "online",
+      "host": "123.4.251.57:35535",
+      "date_added": "2026-10-20T10:27:18Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952946/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952945",
+      "url": "http://58.253.129.91:46735/bin.sh",
+      "url_status": "online",
+      "host": "58.253.129.91:46735",
+      "date_added": "2026-10-20T10:08:23Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952945/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952944",
+      "url": "http://175.149.73.133:35787/bin.sh",
+      "url_status": "online",
+      "host": "175.149.73.133:35787",
+      "date_added": "2026-10-20T10:04:18Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952944/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952943",
+      "url": "http://217.60.196.2/got",
+      "url_status": "offline",
+      "host": "217.60.196.2",
+      "date_added": "2026-10-20T10:01:05Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952943/",
+      "reporter": "cesnet_certs"
+    },
+    {
+      "id": "3952942",
+      "url": "http://42.233.165.218:40107/bin.sh",
+      "url_status": "online",
+      "host": "42.233.165.218:40107",
+      "date_added": "2026-10-20T09:13:08Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952942/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952941",
+      "url": "http://210.208.110.42:43241/bin.sh",
+      "url_status": "online",
+      "host": "210.208.110.42:43241",
+      "date_added": "2026-10-20T08:41:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952941/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952940",
+      "url": "http://125.47.35.71:57561/bin.sh",
+      "url_status": "online",
+      "host": "125.47.35.71:57561",
+      "date_added": "2026-10-20T08:30:26Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952940/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952939",
+      "url": "https://santaclaracountyproperties.com/curl/28a0700d864a15f5bc551accd41342c59d881f7051555f3ca3a3a5403301628b",
+      "url_status": "offline",
+      "host": "santaclaracountyproperties.com",
+      "date_added": "2026-10-20T08:28:04Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "ClickFix",
+        "macOS",
+        "MacSync",
+        "zsh"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952939/",
+      "reporter": "c4ffeine"
+    },
+    {
+      "id": "3952938",
+      "url": "http://113.53.78.164:38897/i",
+      "url_status": "offline",
+      "host": "113.53.78.164:38897",
+      "date_added": "2026-10-20T08:26:10Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "arm",
+        "cowrie",
+        "elf",
+        "honeypot",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952938/",
+      "reporter": "ksi_digital"
+    },
+    {
+      "id": "3952937",
+      "url": "http://27.215.143.87:33433/i",
+      "url_status": "online",
+      "host": "27.215.143.87:33433",
+      "date_added": "2026-10-20T08:25:22Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952937/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952936",
+      "url": "http://182.127.178.64:45042/bin.sh",
+      "url_status": "online",
+      "host": "182.127.178.64:45042",
+      "date_added": "2026-10-20T08:03:18Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952936/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952935",
+      "url": "http://27.215.143.87:33433/bin.sh",
+      "url_status": "online",
+      "host": "27.215.143.87:33433",
+      "date_added": "2026-10-20T08:02:19Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952935/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952934",
+      "url": "http://176.65.139.148/bins/arm5",
+      "url_status": "online",
+      "host": "176.65.139.148",
+      "date_added": "2026-10-20T07:58:17Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "elf",
+        "mirai",
+        "ua-wget"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952934/",
+      "reporter": "ClearlyNotB"
+    },
+    {
+      "id": "3952933",
+      "url": "http://42.228.32.100:37587/bin.sh",
+      "url_status": "online",
+      "host": "42.228.32.100:37587",
+      "date_added": "2026-10-20T07:53:15Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952933/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952932",
+      "url": "http://183.35.50.224:38590/bin.sh",
+      "url_status": "online",
+      "host": "183.35.50.224:38590",
+      "date_added": "2026-10-20T07:49:16Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952932/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952931",
+      "url": "http://42.225.69.1:56329/bin.sh",
+      "url_status": "online",
+      "host": "42.225.69.1:56329",
+      "date_added": "2026-10-20T07:34:07Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952931/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952930",
+      "url": "http://118.251.13.202:40966/bin.sh",
+      "url_status": "online",
+      "host": "118.251.13.202:40966",
+      "date_added": "2026-10-20T07:31:19Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "arm",
+        "elf",
+        "mirai",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952930/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952929",
+      "url": "http://123.11.4.67:51620/i",
+      "url_status": "online",
+      "host": "123.11.4.67:51620",
+      "date_added": "2026-10-20T07:29:19Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952929/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952928",
+      "url": "http://112.248.81.145:57433/i",
+      "url_status": "online",
+      "host": "112.248.81.145:57433",
+      "date_added": "2026-10-20T07:26:49Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "cowrie",
+        "elf",
+        "honeypot",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952928/",
+      "reporter": "ksi_digital"
+    },
+    {
+      "id": "3952927",
+      "url": "http://123.11.4.67:51620/bin.sh",
+      "url_status": "online",
+      "host": "123.11.4.67:51620",
+      "date_added": "2026-10-20T07:02:18Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952927/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952926",
+      "url": "http://42.230.30.10:51216/i",
+      "url_status": "online",
+      "host": "42.230.30.10:51216",
+      "date_added": "2026-10-20T06:51:09Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952926/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952925",
+      "url": "http://182.116.23.184:38135/i",
+      "url_status": "online",
+      "host": "182.116.23.184:38135",
+      "date_added": "2026-10-20T06:32:13Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "32-bit",
+        "elf",
+        "mips",
+        "Mozi"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952925/",
+      "reporter": "geenensp"
+    },
+    {
+      "id": "3952924",
+      "url": "http://101.59.79.119:48386/bin.sh",
+      "url_status": "online",
+      "host": "101.59.79.119:48386",
+      "date_added": "2026-10-20T06:32:06Z",
+      "threat_type": "malware_download",
+      "threat_type_cn": "恶意软件下载",
+      "tags": [
+        "mirai"
+      ],
+      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952924/",
+      "reporter": "adliwahid"
+    },
     {
       "id": "3952923",
       "url": "http://61.52.169.211:52510/i",
@@ -35,7 +466,8 @@
       "threat_type": "malware_download",
       "threat_type_cn": "恶意软件下载",
       "tags": [
-        "elf"
+        "elf",
+        "Mozi"
       ],
       "urlhaus_link": "https://urlhaus.abuse.ch/url/3952923/",
       "reporter": "wristhulk"
@@ -1271,423 +1703,6 @@
         "zapret"
       ],
       "urlhaus_link": "https://urlhaus.abuse.ch/url/3952850/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952846",
-      "url": "https://github.com/Playoopiazza/DiscordFix-Project/releases/download/4.44.4/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:48Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952846/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952847",
-      "url": "https://github.com/Hopegraworship/DiscordFix/releases/download/3.33.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:48Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952847/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952848",
-      "url": "https://github.com/CordPolitician/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:48Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952848/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952842",
-      "url": "https://github.com/CometTrailFoster/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:46Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952842/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952843",
-      "url": "https://github.com/Plumewithinglorify/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:46Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952843/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952844",
-      "url": "https://github.com/fixsovereignspot/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:46Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952844/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952845",
-      "url": "https://github.com/ShipwrightSurvive/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:46Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952845/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952838",
-      "url": "https://github.com/GalleryChampion/TElegrAMDEsKtOp/releases/download/1.10.1/telegramzapret.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:44Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952838/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952839",
-      "url": "https://github.com/blenddreammarvel/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:44Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952839/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952840",
-      "url": "https://github.com/FoundCabinSaw99/DiscordFix-1.12.1/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:44Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952840/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952841",
-      "url": "https://github.com/platoondisplayyank/DiscordFix-Update/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:44Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952841/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952836",
-      "url": "https://github.com/GhoulDustHelix/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:42Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952836/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952837",
-      "url": "https://github.com/badgeskyregain/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:42Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952837/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952835",
-      "url": "https://github.com/RainBeatCitadel/DiscordFix-Windows/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:41Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952835/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952833",
-      "url": "https://github.com/GoldsmithWay/DiscordFix/releases/download/2.22.2/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:37Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952833/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952834",
-      "url": "https://github.com/Columnphoaxe/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:37Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952834/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952830",
-      "url": "https://github.com/DriftHerbalistSilo/DiscordFix-1.12.1/releases/download/1.11.1-New/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:35Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952830/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952831",
-      "url": "https://github.com/SoundConform/DiscordZapret-2026/releases/download/v1.1.1/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:35Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952831/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952832",
-      "url": "https://github.com/Peltwithbend/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:35Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952832/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952829",
-      "url": "https://github.com/PursuerIguanaPurge/DiScOrDZapRet/releases/download/zapret-discord-youtube-1.10.2/zapret-discord-youtube-1.10.2.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:33Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952829/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952827",
-      "url": "https://github.com/maildeputyjetty/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:32Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952827/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952828",
-      "url": "https://github.com/chartpremierconquer/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:32Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952828/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952825",
-      "url": "https://github.com/weldempressstation/DiscordObhod/releases/download/1.10.3/zapret-discord-youtube-1.10.3.rar",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:30Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "rar",
-        "SalatStealer",
-        "zapret"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952825/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952826",
-      "url": "https://github.com/Championgrihub/ZapretDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:30Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952826/",
-      "reporter": "wristhulk"
-    },
-    {
-      "id": "3952824",
-      "url": "https://github.com/Hazeardifferentiate/FixDiscord/releases/download/1.10.3/zapret-discord-youtube-1.10.3.zip",
-      "url_status": "online",
-      "host": "github.com",
-      "date_added": "2026-10-20T05:55:29Z",
-      "threat_type": "malware_download",
-      "threat_type_cn": "恶意软件下载",
-      "tags": [
-        "github",
-        "SalatStealer",
-        "zapret",
-        "zip"
-      ],
-      "urlhaus_link": "https://urlhaus.abuse.ch/url/3952824/",
       "reporter": "wristhulk"
     }
   ]
